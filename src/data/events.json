@@ -1,0 +1,777 @@
+{
+  "items": [
+    {
+      "id": "ev-001",
+      "slug": "food-truck-sunset-prague",
+      "title": "Food Truck Sunset",
+      "subtitle": "Afterwork street food večer",
+      "summary": "Food Truck Sunset na pražské Náplavce je navržen jako uvolněný afterwork formát pro návštěvníky, kteří si chtějí po práci užít dobré jídlo, neformální atmosféru a večer u řeky. Koncept kombinuje rychlý servis, menší porce na ochutnání a přirozený pohyb hostů mezi food zónou, barem a odpočinkovou částí.",
+      "eventType": "Veřejná akce",
+      "typeLabel": "Akce",
+      "category": "street-food",
+      "dateFrom": "2026-03-06",
+      "dateTo": "2026-03-06",
+      "place": "Praha, Náplavka",
+      "where": "Praha, Náplavka",
+      "when": "6. 3. 2026",
+      "image": {
+        "src": "/images/events/event1-food-truck-evening.jpg",
+        "alt": "Food truck večer"
+      },
+      "mailto": "mailto:hello@northdock.events?subject=Dotaz%20k%20akci%20Food%20Truck%20Sunset",
+      "tags": [
+        "street food",
+        "afterwork",
+        "outdoor",
+        "večerní program",
+        "drink bar",
+        "cashless"
+      ],
+      "facts": [
+        {
+          "label": "Formát",
+          "value": "Afterwork street food večer"
+        },
+        {
+          "label": "Vhodné pro",
+          "value": "Veřejnost, skupiny přátel, expaty"
+        },
+        {
+          "label": "Kapacita",
+          "value": "cca 300–500 návštěvníků"
+        },
+        {
+          "label": "Servis",
+          "value": "Průběžný walk-in provoz"
+        }
+      ],
+      "program": [
+        {
+          "time": "17:00",
+          "title": "Otevření food zóny a baru"
+        },
+        {
+          "time": "18:00",
+          "title": "Hlavní večerní servis a peak provoz"
+        },
+        {
+          "time": "19:30",
+          "title": "Doprovodný hudební blok"
+        },
+        {
+          "time": "21:00",
+          "title": "Pozvolné uzavření večera"
+        }
+      ],
+      "practicalInfo": [
+        "Akce probíhá ve venkovním prostoru na pražské Náplavce.",
+        "Doporučený příchod je mezi 17:00 a 19:00, kdy je atmosféra nejživější.",
+        "Platba na místě je primárně bezhotovostní.",
+        "Koncept je vhodný i pro návštěvníky, kteří dorazí samostatně nebo jen na kratší zastavení po práci."
+      ],
+      "faq": [
+        {
+          "question": "Je akce vhodná i pro menší skupiny?",
+          "answer": "Ano, formát je navržen tak, aby dobře fungoval pro dvojice, menší skupiny i jednotlivce."
+        },
+        {
+          "question": "Bude na místě i bezmasá nabídka?",
+          "answer": "Ano, menu počítá i s vegetariánskými a lehčími variantami."
+        },
+        {
+          "question": "Je potřeba rezervace?",
+          "answer": "Pro běžnou návštěvu se rezervace nevyžaduje, ale u větších skupin doporučujeme kontakt předem."
+        }
+      ],
+      "gallery": [
+        {
+          "thumb": "/images/gallery/gallery-1.jpg",
+          "full": "/images/gallery/gallery-1.jpg",
+          "alt": "Večerní atmosféra street food akce"
+        },
+        {
+          "thumb": "/images/gallery/gallery-2.jpg",
+          "full": "/images/gallery/gallery-2.jpg",
+          "alt": "Hosté u food trucků na venkovní akci"
+        },
+        {
+          "thumb": "/images/gallery/gallery-3.jpg",
+          "full": "/images/gallery/gallery-3.jpg",
+          "alt": "Detail servisu jídla na eventu"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Food Truck Sunset na pražské Náplavce je navržen jako pohodový afterwork večer, kde hosté přicházejí postupně mezi 17:00 a 21:00. Prostor je otevřený, neformální a nastavený tak, aby dobře fungoval i při vyšší návštěvnosti bez zbytečně dlouhých front."
+        },
+        {
+          "type": "h2",
+          "text": "Co hosté na místě zažijí"
+        },
+        {
+          "type": "p",
+          "text": "Menu kombinuje street food klasiky s lehčími sezónními variantami, aby si vybrali jak fanoušci výrazných chutí, tak hosté, kteří hledají vyváženější nabídku. Servis je nastaven tak, aby bylo možné během večera ochutnat více menších porcí a přirozeně se vracet k jednotlivým stanovištím."
+        },
+        {
+          "type": "p",
+          "text": "Atmosféru doplňuje jednoduchá světelná scénografie, hudební podkres a několik zón pro stání i posezení. Akce je vhodná pro skupiny přátel, kolegy po práci i návštěvníky, kteří dorazí sami a chtějí strávit příjemný večer u řeky bez formálního programu."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "2 výdejní food station s průběžným doplňováním nabídky",
+            "vegetariánská i lehčí bezmasá volba v hlavním menu",
+            "samostatný drink bar s nealko i signaturními drinky",
+            "rychlý cashless provoz pro plynulý pohyb hostů"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Finální harmonogram a lineup partnerů bude upřesněn před samotnou akcí, ale už nyní je koncept nastaven jako plnohodnotný večerní formát vhodný pro městské publikum, expaty i návštěvníky, kteří hledají kvalitní gastronomický program v atraktivní lokalitě."
+        }
+      ]
+    },
+    {
+      "id": "ev-002",
+      "slug": "tacos-live-brno",
+      "title": "Tacos Live Station",
+      "subtitle": "Live cooking před hosty",
+      "summary": "Tacos Live Station je interaktivní gastro formát pro firemní eventy, konference a vícedenní produkce, kde se samotná příprava jídla stává součástí zážitku. Hosté sledují servírování přímo před sebou, což přirozeně podporuje kontakt s týmem, vyšší zapojení publika a vizuálně atraktivní průběh celé akce.",
+      "eventType": "Firemní",
+      "typeLabel": "Akce",
+      "category": "live-cooking",
+      "dateFrom": "2026-03-14",
+      "dateTo": "2026-03-16",
+      "place": "Brno, Výstaviště",
+      "where": "Brno, Výstaviště",
+      "when": "14.–16. 3. 2026",
+      "image": {
+        "src": "/images/events/event2-tacos-preparation.jpg",
+        "alt": "Tacos live příprava"
+      },
+      "mailto": "mailto:hello@northdock.events?subject=Dotaz%20k%20akci%20Tacos%20Live%20Station",
+      "tags": [
+        "live cooking",
+        "firemní akce",
+        "vícedenní",
+        "branding possible",
+        "indoor",
+        "modulární menu"
+      ],
+      "facts": [
+        {
+          "label": "Formát",
+          "value": "Live station s přípravou před hosty"
+        },
+        {
+          "label": "Vhodné pro",
+          "value": "Konference, firemní eventy, brand aktivace"
+        },
+        {
+          "label": "Kapacita",
+          "value": "vysokokapacitní provoz během servisních oken"
+        },
+        {
+          "label": "Prostředí",
+          "value": "Indoor event venue"
+        }
+      ],
+      "program": [
+        {
+          "time": "10:00",
+          "title": "Příprava stanice a otevření zóny"
+        },
+        {
+          "time": "12:00",
+          "title": "První servisní vlna po denním programu"
+        },
+        {
+          "time": "15:00",
+          "title": "Odpolední peak a živá příprava menu"
+        },
+        {
+          "time": "18:00",
+          "title": "Večerní networking servis"
+        }
+      ],
+      "practicalInfo": [
+        "Stanice je navržena tak, aby zvládla vyšší provoz bez ztráty kvality servisu.",
+        "Menu lze částečně upravit podle typu klienta, brandingových požadavků a složení hostů.",
+        "Součástí konceptu může být i vizuální branding pultu, orientačních prvků nebo menu karet.",
+        "Servis probíhá v jasně definovaných oknech navázaných na program eventu."
+      ],
+      "faq": [
+        {
+          "question": "Je možné upravit menu podle klienta?",
+          "answer": "Ano, koncept je modulární a lze jej přizpůsobit složení hostů i typu eventu."
+        },
+        {
+          "question": "Je tato akce vhodná i pro větší konferenční formáty?",
+          "answer": "Ano, stanice je navržena pro vyšší kapacitu a plynulý servis během špiček."
+        },
+        {
+          "question": "Lze akci vizuálně přizpůsobit značce klienta?",
+          "answer": "Ano, branding je možné řešit na úrovni pultu, orientace i doprovodných materiálů."
+        }
+      ],
+      "gallery": [
+        {
+          "thumb": "/images/gallery/gallery-4.jpg",
+          "full": "/images/gallery/gallery-4.jpg",
+          "alt": "Live cooking tacos před hosty"
+        },
+        {
+          "thumb": "/images/gallery/gallery-5.jpg",
+          "full": "/images/gallery/gallery-5.jpg",
+          "alt": "Detail přípravy tacos na eventu"
+        },
+        {
+          "thumb": "/images/gallery/gallery-6.jpg",
+          "full": "/images/gallery/gallery-6.jpg",
+          "alt": "Firemní gastro stanice v hale"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Tacos Live Station na brněnském Výstavišti je navržena jako vícedenní firemní aktivace, kde je příprava jídla součástí celkového zážitku. Hosté sledují každý krok od ohřevu tortilly až po finální dochucení, což přirozeně podporuje interakci s kuchařským týmem."
+        },
+        {
+          "type": "h2",
+          "text": "Live cooking jako středobod programu"
+        },
+        {
+          "type": "p",
+          "text": "Během tří dnů je provoz rozdělen do jasných servisních oken, aby bylo možné zvládnout i výrazné nárazové špičky po keynote blocích, prezentacích a networkingových částech. Tým funguje ve směnách a drží stabilní kvalitu i tempo výdeje po celou dobu eventu."
+        },
+        {
+          "type": "p",
+          "text": "Koncept je vhodný pro firmy, které chtějí propojit catering s komunikací značky. Stanici lze vizuálně sladit s identitou klienta a doplnit o tematické prvky podle denní agendy, cílové skupiny nebo charakteru akce."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "příprava tacos přímo před hosty včetně finálního dochucení",
+            "modulární menu s masovou, vegetariánskou i vegan volbou",
+            "dedikovaný servisní tým pro plynulý provoz ve špičkách",
+            "možnost brandingu pultu, menu karet a orientačních prvků"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Po každém dni je prostor na rychlé vyhodnocení spotřeby a úpravu produkce, aby další servis odpovídal reálnému chování návštěvníků i kapacitě celé akce. Díky tomu je formát vhodný jak pro interní firemní eventy, tak pro reprezentativní B2B produkce."
+        }
+      ]
+    },
+    {
+      "id": "ev-003",
+      "slug": "yard-party-ostrava",
+      "title": "Yard Party Night",
+      "subtitle": "Večerní open-air program s hudbou a street food zónou",
+      "summary": "Yard Party Night v areálu Dolních Vítkovic propojuje večerní hudební program, industriální atmosféru a neformální street food servis. Akce je navržena tak, aby hosté mohli volně přecházet mezi pódiem, posezením a gastro zónou, aniž by docházelo ke zbytečnému zpomalování provozu.",
+      "eventType": "Veřejná akce",
+      "typeLabel": "Akce",
+      "category": "music-food-event",
+      "dateFrom": "2026-03-14",
+      "dateTo": "2026-03-14",
+      "place": "Ostrava, Dolní Vítkovice",
+      "where": "Ostrava, Dolní Vítkovice",
+      "when": "14. 3. 2026",
+      "image": {
+        "src": "/images/events/event3-evening-crowd.jpg",
+        "alt": "Večerní crowd na akci"
+      },
+      "mailto": "mailto:hello@northdock.events?subject=Dotaz%20k%20akci%20Yard%20Party%20Night",
+      "tags": [
+        "open air",
+        "hudební program",
+        "street food",
+        "večerní akce",
+        "industriální prostor"
+      ],
+      "facts": [
+        {
+          "label": "Formát",
+          "value": "Hudební večer se street food zónou"
+        },
+        {
+          "label": "Vhodné pro",
+          "value": "Veřejnost, městské publikum, skupiny přátel"
+        },
+        {
+          "label": "Kapacita",
+          "value": "střední až vyšší návštěvnost"
+        },
+        {
+          "label": "Prostředí",
+          "value": "Outdoor / industriální areál"
+        }
+      ],
+      "program": [
+        {
+          "time": "18:00",
+          "title": "Otevření areálu a food zóny"
+        },
+        {
+          "time": "19:00",
+          "title": "Začátek hudebního programu"
+        },
+        {
+          "time": "20:30",
+          "title": "Hlavní večerní peak návštěvnosti"
+        },
+        {
+          "time": "22:00",
+          "title": "Závěrečný blok a dojezd servisu"
+        }
+      ],
+      "practicalInfo": [
+        "Food zóna je rozmístěna tak, aby neblokovala hlavní trasy mezi pódiem a odpočinkovou částí.",
+        "Menu je navrženo pro pohodlnou konzumaci i při pohybu po areálu.",
+        "Akce je vhodná pro návštěvníky, kteří plánují kratší zastavení i delší večerní pobyt.",
+        "Provoz je optimalizován pro večerní špičky mezi jednotlivými hudebními sety."
+      ],
+      "faq": [
+        {
+          "question": "Je akce vhodná i pro návštěvníky, kteří přijdou jen na část večera?",
+          "answer": "Ano, koncept funguje i pro kratší návštěvu bez nutnosti být na místě po celý program."
+        },
+        {
+          "question": "Bude na místě i posezení?",
+          "answer": "Ano, součástí layoutu jsou sdílené stoly i zóny pro kratší zastavení."
+        }
+      ],
+      "gallery": [
+        {
+          "thumb": "/images/gallery/gallery-7.jpg",
+          "full": "/images/gallery/gallery-7.jpg",
+          "alt": "Večerní open-air crowd"
+        },
+        {
+          "thumb": "/images/gallery/gallery-8.jpg",
+          "full": "/images/gallery/gallery-8.jpg",
+          "alt": "Hudební program v industriálním prostoru"
+        },
+        {
+          "thumb": "/images/gallery/gallery-9.jpg",
+          "full": "/images/gallery/gallery-9.jpg",
+          "alt": "Street food zóna během večerní akce"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Yard Party Night v areálu Dolních Vítkovic propojuje večerní hudební program s neformálním street food servisem. Koncept počítá s návštěvníky, kteří se mezi pódiem a gastro zónou přirozeně pohybují, proto je kladen důraz na rychlost servisu a jednoduchou orientaci v prostoru."
+        },
+        {
+          "type": "h2",
+          "text": "Večerní program v industriálním prostoru"
+        },
+        {
+          "type": "p",
+          "text": "Food zóna je rozmístěna tak, aby podporovala delší setrvání hostů v areálu, ale zároveň nenarušovala hlavní komunikační trasy. Sdílené stoly, standing zóny a přehledně řešený výdej vytvářejí přirozený mix krátké zastávky i delšího posezení mezi jednotlivými hudebními bloky."
+        },
+        {
+          "type": "p",
+          "text": "Nabídka staví na jídlech, která se dobře konzumují i během pohybu po areálu. Prioritou je konzistentní kvalita po celé časové okno od otevření bran až po pozdní večerní finále, kdy bývá zatížení provozu nejvyšší."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "hudební večer s navazujícím street food servisem",
+            "sdílené stoly, standing zóny a přehledně vedené fronty",
+            "rychlý výdej navržený pro návštěvnické špičky mezi sety",
+            "kombinace teplých i studených variant vhodných pro večerní provoz"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Detailní lineup bude potvrzen před eventem, ale dramaturgie i gastro část jsou už nyní navrženy tak, aby stránka působila jako realisticky připravený detail veřejné večerní akce s jasnou logikou návštěvnické cesty."
+        }
+      ]
+    },
+    {
+      "id": "ev-004",
+      "slug": "meet-the-founder",
+      "title": "Meet the Founder Dinner",
+      "subtitle": "Komorní degustační večer pro partnery a hosty",
+      "summary": "Meet the Founder Dinner je privátní večerní formát určený pro omezený počet hostů z řad partnerů, investorů a blízkých spolupracovníků. Důraz je kladen na osobní kontakt, klidné prostředí, kvalitní servis a promyšlený průběh večera, kde gastronomická část přirozeně podporuje networking i obsah programu.",
+      "eventType": "Soukromá akce",
+      "typeLabel": "Akce",
+      "category": "private-dinner",
+      "dateFrom": "2026-03-20",
+      "dateTo": "2026-03-20",
+      "place": "Praha 7",
+      "where": "Praha 7",
+      "when": "20. 3. 2026",
+      "image": {
+        "src": "/images/events/event4-founder-portrait.jpg",
+        "alt": "Founder dinner portrait"
+      },
+      "mailto": "mailto:hello@northdock.events?subject=Dotaz%20k%20akci%20Meet%20the%20Founder%20Dinner",
+      "tags": [
+        "private dinner",
+        "networking",
+        "degustační menu",
+        "premium servis",
+        "komorní formát"
+      ],
+      "facts": [
+        {
+          "label": "Formát",
+          "value": "Privátní degustační večer"
+        },
+        {
+          "label": "Vhodné pro",
+          "value": "Partnery, investory, VIP hosty"
+        },
+        {
+          "label": "Kapacita",
+          "value": "omezený počet hostů"
+        },
+        {
+          "label": "Servis",
+          "value": "Řízený seated dinner format"
+        }
+      ],
+      "program": [
+        {
+          "time": "18:30",
+          "title": "Příchod hostů a welcome servis"
+        },
+        {
+          "time": "19:00",
+          "title": "Úvodní slovo a první chod"
+        },
+        {
+          "time": "20:00",
+          "title": "Hlavní networkingový blok"
+        },
+        {
+          "time": "21:30",
+          "title": "Závěrečný chod a neformální část"
+        }
+      ],
+      "practicalInfo": [
+        "Akce je určena pro omezený počet potvrzených hostů.",
+        "Seating plan je připraven předem s ohledem na charakter setkání a networking.",
+        "Gastronomická část je servírována v jasně definovaném sledu chodů.",
+        "Detaily místa a časový plán jsou sdíleny přímo s pozvanými hosty."
+      ],
+      "faq": [
+        {
+          "question": "Je možné dorazit bez předchozího potvrzení?",
+          "answer": "Ne, jedná se o soukromou akci s předem potvrzeným guest listem."
+        },
+        {
+          "question": "Má akce pevně daný harmonogram?",
+          "answer": "Ano, večer má řízené tempo, aby dobře fungovala gastronomická i networkingová část."
+        }
+      ],
+      "gallery": [
+        {
+          "thumb": "/images/gallery/gallery-10.jpg",
+          "full": "/images/gallery/gallery-10.jpg",
+          "alt": "Privátní dinner setup"
+        },
+        {
+          "thumb": "/images/gallery/gallery-11.jpg",
+          "full": "/images/gallery/gallery-11.jpg",
+          "alt": "Komorní networkingový večer"
+        },
+        {
+          "thumb": "/images/gallery/gallery-12.jpg",
+          "full": "/images/gallery/gallery-12.jpg",
+          "alt": "Servis degustačního menu"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Meet the Founder Dinner je komorní soukromý večer v Praze 7 určený pro omezený počet hostů z řad partnerů, investorů a blízkých spolupracovníků. Cílem je vytvořit klidné prostředí, kde má každý host prostor na smysluplný rozhovor i osobní kontakt s hostitelem."
+        },
+        {
+          "type": "h2",
+          "text": "Degustační formát s řízeným tempem"
+        },
+        {
+          "type": "p",
+          "text": "Večer je postaven na vícechodovém menu, které je servírováno v jasně definovaném sledu. Každý chod má krátké uvedení a navazuje na hlavní téma setkání tak, aby gastronomická část podporovala obsah programu a nepůsobila jako oddělená aktivita."
+        },
+        {
+          "type": "p",
+          "text": "Servis je diskrétní, ale přesný, s důrazem na plynulé přechody mezi chody a nerušenou atmosféru. Seating plan je připraven předem tak, aby vznikala nová propojení a hosté se přirozeně zapojovali do diskuze."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "komorní kapacita s předem potvrzeným guest listem",
+            "degustační menu servírované po jednotlivých chodech",
+            "moderované bloky pro networking a neformální debatu",
+            "diskrétní full-service obsluha po celý večer"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Finální harmonogram a pairing budou sdíleny s pozvanými hosty před datem konání, aby detail akce odpovídal standardu premium soukromého eventu a bylo možné přesně sladit servis, obsah i očekávání účastníků."
+        }
+      ]
+    },
+    {
+      "id": "ev-005",
+      "slug": "burger-grill-night",
+      "title": "Burger Grill Night",
+      "subtitle": "Firemní večer s otevřeným grilem a neformálním servisem",
+      "summary": "Burger Grill Night v prostoru DEPO2015 je energický firemní večerní formát postavený na otevřeném grillu, vyšší kapacitě a neformální atmosféře. Akce je vhodná pro týmy, které po denní části programu hledají výraznější gastro zážitek, plynulý servis a prostor pro networking bez příliš formální struktury.",
+      "eventType": "Firemní",
+      "typeLabel": "Akce",
+      "category": "grill-event",
+      "dateFrom": "2026-03-27",
+      "dateTo": "2026-03-27",
+      "place": "Plzeň, DEPO2015",
+      "where": "Plzeň, DEPO2015",
+      "when": "27. 3. 2026",
+      "image": {
+        "src": "/images/events/event5-burger-grill-action.jpg",
+        "alt": "Burger grill akce"
+      },
+      "mailto": "mailto:hello@northdock.events?subject=Dotaz%20k%20akci%20Burger%20Grill%20Night",
+      "tags": [
+        "grill station",
+        "firemní večer",
+        "networking",
+        "vyšší kapacita",
+        "indoor / industrial"
+      ],
+      "facts": [
+        {
+          "label": "Formát",
+          "value": "Otevřený grill station večer"
+        },
+        {
+          "label": "Vhodné pro",
+          "value": "Firemní večery, interní eventy, networking"
+        },
+        {
+          "label": "Kapacita",
+          "value": "vyšší večerní provoz"
+        },
+        {
+          "label": "Servis",
+          "value": "Paralelní výdej na více stanovištích"
+        }
+      ],
+      "program": [
+        {
+          "time": "17:30",
+          "title": "Příchod hostů a otevření grillu"
+        },
+        {
+          "time": "18:30",
+          "title": "Hlavní servisní vlna"
+        },
+        {
+          "time": "20:00",
+          "title": "Networking a doprovodný program"
+        },
+        {
+          "time": "21:30",
+          "title": "Dojezd servisu a neformální část večera"
+        }
+      ],
+      "practicalInfo": [
+        "Provoz je nastaven pro souběžný nástup většího počtu hostů bez výrazného prodlužování front.",
+        "Menu zahrnuje klasické burgery i lehčí alternativy pro širší spektrum preferencí.",
+        "Prostor je rozdělen na objednávkovou, výdejní a konzumační část pro lepší orientaci.",
+        "Koncept lze navázat na interní stage program nebo firemní vyhlášení."
+      ],
+      "faq": [
+        {
+          "question": "Je koncept vhodný i pro větší týmové akce?",
+          "answer": "Ano, provoz je navržen pro vyšší kapacitu a rychlejší večerní špičky."
+        },
+        {
+          "question": "Je možné zařadit i vegetariánskou variantu?",
+          "answer": "Ano, menu počítá i s bezmasými alternativami."
+        }
+      ],
+      "gallery": [
+        {
+          "thumb": "/images/gallery/gallery-13.jpg",
+          "full": "/images/gallery/gallery-13.jpg",
+          "alt": "Burger grill station"
+        },
+        {
+          "thumb": "/images/gallery/gallery-14.jpg",
+          "full": "/images/gallery/gallery-14.jpg",
+          "alt": "Firemní večerní servis"
+        },
+        {
+          "thumb": "/images/gallery/gallery-15.jpg",
+          "full": "/images/gallery/gallery-15.jpg",
+          "alt": "Grill akce v industriálním prostoru"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Burger Grill Night v prostoru DEPO2015 je firemní večerní program postavený na otevřeném grillu, vyšší kapacitě a neformálním sociálním formátu. Celé nastavení míří na týmy, které po denní části programu hledají energický, ale stále dobře organizovaný večer."
+        },
+        {
+          "type": "h2",
+          "text": "Vysokokapacitní grill servis"
+        },
+        {
+          "type": "p",
+          "text": "Kuchařská sestava pracuje na několika paralelních grilech a drží stabilní čas výdeje i při souběžném nástupu větších skupin. Díky tomu se netvoří dlouhé fronty a hosté mohou plynule přecházet mezi networkingem, hudbou a gastro zónou."
+        },
+        {
+          "type": "p",
+          "text": "Menu počítá s klasickými burgery i lehčími alternativami, aby bylo vhodné pro širší spektrum preferencí. Důležitá je i logistika prostoru: jasně oddělená objednávka, výdej a zóna pro konzumaci zjednodušují orientaci i při maximální návštěvnosti."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "grill station s otevřeným ohněm a paralelním výdejem",
+            "kombinace hovězích, kuřecích i vegetariánských burgerů",
+            "kapacitní řešení navržené pro firemní večerní špičky",
+            "možnost navázat na stage program nebo interní vyhlášení"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Tento typ eventu je vhodný pro klienty, kteří hledají srozumitelný, silný a vizuálně atraktivní gastro formát. Detailový obsah je zároveň dostatečně robustní pro testování layoutu, délky odstavců i čitelnosti jednotlivých bloků."
+        }
+      ]
+    },
+    {
+      "id": "ev-006",
+      "slug": "street-sliders-festival",
+      "title": "Street Sliders Festival",
+      "subtitle": "Ochutnávkový festival mini burgerů a street food specialit",
+      "summary": "Street Sliders Festival v olomoucké Korunní pevnůstce je jednodenní gastro formát zaměřený na ochutnávkové porce, průběžný pohyb návštěvníků a celodenní festivalovou atmosféru. Menší porce umožňují vyzkoušet více stylů během jednoho dne a vytvářejí přirozenou motivaci vracet se opakovaně k jednotlivým stánkům.",
+      "eventType": "Festival",
+      "typeLabel": "Akce",
+      "category": "food-festival",
+      "dateFrom": "2026-04-02",
+      "dateTo": "2026-04-02",
+      "place": "Olomouc, Korunní pevnůstka",
+      "where": "Olomouc, Korunní pevnůstka",
+      "when": "2. 4. 2026",
+      "image": {
+        "src": "/images/events/event6-street-sliders.jpg",
+        "alt": "Street sliders festival"
+      },
+      "mailto": "mailto:hello@northdock.events?subject=Dotaz%20k%20akci%20Street%20Sliders%20Festival",
+      "tags": [
+        "festival",
+        "sliders",
+        "ochutnávky",
+        "celodenní program",
+        "walk-in",
+        "family friendly"
+      ],
+      "facts": [
+        {
+          "label": "Formát",
+          "value": "Jednodenní food festival"
+        },
+        {
+          "label": "Vhodné pro",
+          "value": "Veřejnost, rodiny, foodies"
+        },
+        {
+          "label": "Kapacita",
+          "value": "průběžná celodenní návštěvnost"
+        },
+        {
+          "label": "Servis",
+          "value": "Walk-in ochutnávkový provoz"
+        }
+      ],
+      "program": [
+        {
+          "time": "11:00",
+          "title": "Otevření areálu a start ochutnávek"
+        },
+        {
+          "time": "13:00",
+          "title": "Hlavní denní špička a doprovodný program"
+        },
+        {
+          "time": "16:00",
+          "title": "Odpolední festivalový blok"
+        },
+        {
+          "time": "19:00",
+          "title": "Závěrečný servis a uzavření areálu"
+        }
+      ],
+      "practicalInfo": [
+        "Koncept je založen na menších porcích a průběžném pohybu návštěvníků mezi stánky.",
+        "Layout zóny je přehledný a navržený tak, aby se provoz nezpomaloval ani při vyšší návštěvnosti.",
+        "Akce je vhodná pro návštěvníky, kteří chtějí ochutnat více stylů během jednoho dne.",
+        "Součástí prostoru je i zázemí pro kratší zastavení a odpočinek mezi jednotlivými ochutnávkami."
+      ],
+      "faq": [
+        {
+          "question": "Je festival vhodný i pro návštěvníky s dětmi?",
+          "answer": "Ano, koncept je otevřený široké veřejnosti a počítá i s rodinnými návštěvníky."
+        },
+        {
+          "question": "Budou na místě i menší ochutnávkové porce?",
+          "answer": "Ano, právě menší formát porcí je hlavním principem celé akce."
+        }
+      ],
+      "gallery": [
+        {
+          "thumb": "/images/gallery/gallery-16.jpg",
+          "full": "/images/gallery/gallery-16.jpg",
+          "alt": "Festival mini burgerů"
+        },
+        {
+          "thumb": "/images/gallery/gallery-17.jpg",
+          "full": "/images/gallery/gallery-17.jpg",
+          "alt": "Návštěvníci během food festivalu"
+        },
+        {
+          "thumb": "/images/gallery/gallery-18.jpg",
+          "full": "/images/gallery/gallery-18.jpg",
+          "alt": "Street food stanoviště s ochutnávkami"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Street Sliders Festival v olomoucké Korunní pevnůstce je jednodenní formát, který staví na ochutnávkových porcích mini burgerů a přirozeném pohybu návštěvníků mezi jednotlivými stanovišti. Festivalový rytmus počítá s hosty, kteří se během dne vracejí opakovaně a chtějí zkoušet více chutí."
+        },
+        {
+          "type": "h2",
+          "text": "Ochutnávkový koncept pro celodenní provoz"
+        },
+        {
+          "type": "p",
+          "text": "Sliders jsou navrženy tak, aby bylo možné porovnat více stylů bez pocitu přesycení. Díky menší porci lze kombinovat různé chuťové profily a udržet pozornost návštěvníků i v pozdějších hodinách programu."
+        },
+        {
+          "type": "p",
+          "text": "Provoz je optimalizován pro walk-in režim s možností krátkého zastavení i delšího setrvání. Layout zóny je přehledný, s dobrým výhledem na menu a jasně odděleným místem pro výdej, aby se provoz nezpomaloval při větším zatížení."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "mini burgery v několika stylech pro postupné ochutnávání",
+            "celodenní festivalový režim s opakovaným návratem hostů",
+            "kombinace rychlého servisu a přehledného pohybu po areálu",
+            "dobrá orientace mezi menu tabulemi, výdejem a sezením"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Doplněný text vytváří realistický detail festivalu a je dostatečně dlouhý pro UX testy typografie, rozestupů i čitelnosti jednotlivých obsahových bloků na desktopu i mobilu. Zároveň ponechává prostor pro pozdější doplnění partnerů, programu nebo galerie realizace."
+        }
+      ]
+    }
+  ]
+}

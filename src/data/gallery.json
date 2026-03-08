@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "g-001",
+      "src": "/images/events/event1-food-truck-evening.jpg",
+      "alt": "Food truck station at dusk",
+      "category": "Event"
+    },
+    {
+      "id": "g-002",
+      "src": "/images/events/event2-tacos-preparation.jpg",
+      "alt": "Live tacos prep",
+      "category": "Kitchen"
+    },
+    {
+      "id": "g-003",
+      "src": "/images/events/event3-evening-crowd.jpg",
+      "alt": "Evening audience and tables",
+      "category": "Event"
+    },
+    {
+      "id": "g-004",
+      "src": "/images/events/event4-founder-portrait.jpg",
+      "alt": "Founder portrait",
+      "category": "Team"
+    },
+    {
+      "id": "g-005",
+      "src": "/images/events/event5-burger-grill-action.jpg",
+      "alt": "Flame grill station",
+      "category": "Kitchen"
+    },
+    {
+      "id": "g-006",
+      "src": "/images/events/event6-street-sliders.jpg",
+      "alt": "Street sliders plating",
+      "category": "Menu"
+    },
+    {
+      "id": "g-007",
+      "src": "/images/team/team1-chef-portrait.jpg",
+      "alt": "Head chef",
+      "category": "Team"
+    },
+    {
+      "id": "g-008",
+      "src": "/images/team/team2-grill-chef.jpg",
+      "alt": "Grill chef",
+      "category": "Team"
+    }
+  ]
+}

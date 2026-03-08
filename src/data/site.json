@@ -1,0 +1,100 @@
+{
+  "brand": {
+    "name": "North Dock Events",
+    "tagline": "Street food catering a rental pro outdoor i indoor akce"
+  },
+  "navigation": {
+    "items": [
+      { "id": "nav-about", "label": "Kdo jsme", "sectionId": "about" },
+      { "id": "nav-events", "label": "Akce", "sectionId": "events" },
+      { "id": "nav-photos", "label": "Fotky", "sectionId": "photos" },
+      { "id": "nav-services", "label": "Služby", "sectionId": "services" },
+      { "id": "nav-partners", "label": "Spolupracujeme", "sectionId": "partners" },
+      { "id": "nav-contact", "label": "Kontakt", "sectionId": "contact" }
+    ]
+  },
+  "hero": {
+    "kicker": "Catering a event produkce",
+    "title": "Street food zazitek, ktery funguje i logisticky",
+    "subtitle": "Navrhujeme, varime a provozne ridime akce od mensich firemnich setkani az po velke open-air eventy.",
+    "stats": [
+      { "label": "Akci rocne", "value": "120+" },
+      { "label": "Hostu za sezonu", "value": "48k" },
+      { "label": "Mobilnich stanic", "value": "9" }
+    ],
+    "card": {
+      "title": "Co dostanete v zakladu",
+      "bullets": [
+        "Vlastni mobilni kuchyne a grill setup",
+        "Produkce na miste vcetne personalu",
+        "Pronajem nabytku a gastro vybaveni",
+        "Cisty harmonogram, jasna komunikace"
+      ]
+    },
+    "image": {
+      "src": "/images/events/event1-food-truck-evening.jpg",
+      "alt": "Vecerni food truck station"
+    }
+  },
+  "about": {
+    "title": "Zazemi kuchare, produkce i servisu",
+    "lead": "Jsme tym, ktery spojuje profesionalni gastronomii a eventovou realizaci v jednom workflow.",
+    "body": "Nevozime jen jidlo. Dodame koncept, setup, personal, rental i provozni koordinaci v den akce. Vysledkem je plynuly servis bez improvizace na posledni chvili.",
+    "steps": [
+      {
+        "title": "Brief a navrh",
+        "text": "Spolecne nastavime styl akce, pocet hostu, rytmus servisu a prostorove pozadavky."
+      },
+      {
+        "title": "Produkcni plan",
+        "text": "Pripravime menu, logistiku, personal a deployment mobiliari i techniky."
+      },
+      {
+        "title": "Realizace na miste",
+        "text": "Vedeme servis, dohlizime na kvalitu a drzi me casovy plan celeho programu."
+      }
+    ]
+  },
+  "contact": {
+    "note": "Poslete nam termin, lokalitu a odhad poctu hostu. Odpovime s navrhem reseni a orientacni kalkulaci.",
+    "phone": "+420 734 882 190",
+    "phoneRaw": "+420734882190",
+    "email": "hello@northdock.events",
+    "address": "Kotlarska 24, Brno",
+    "mailSubject": "Poptavka catering a rental",
+    "mapLink": "https://maps.google.com/?q=Kotlarska+24+Brno",
+    "mapEmbedUrl": "https://www.google.com/maps?q=Kotlarska%2024%20Brno&output=embed",
+    "form": {
+      "subject": "Poptavka: North Dock Events"
+    }
+  },
+  "social": [
+    { "label": "Instagram", "url": "https://instagram.com" },
+    { "label": "Facebook", "url": "https://facebook.com" }
+  ],
+  "team": {
+    "items": [
+      {
+        "id": "team-1",
+        "name": "Martin Kral",
+        "role": "Head chef a menu koncept",
+        "image": {
+          "src": "/images/team/team1-chef-portrait.jpg",
+          "alt": "Head chef portrait"
+        }
+      },
+      {
+        "id": "team-2",
+        "name": "Lucie Novakova",
+        "role": "Grill lead a event service",
+        "image": {
+          "src": "/images/team/team2-grill-chef.jpg",
+          "alt": "Grill chef in action"
+        }
+      }
+    ]
+  },
+  "ui": {
+    "contactBackground": "/images/ui/contact-bg.jpg"
+  }
+}
