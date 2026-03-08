@@ -1,0 +1,46 @@
+:root {
+  --bg-900: #122228;
+  --bg-850: #183036;
+  --bg-800: #1e3a3f;
+  --surface-700: rgba(247, 252, 250, 0.12);
+  --surface-600: rgba(238, 247, 243, 0.2);
+  --surface-light: rgba(245, 251, 247, 0.92);
+  --line: rgba(225, 243, 234, 0.3);
+  --line-strong: rgba(194, 146, 86, 0.6);
+  --text: #f5fbf8;
+  --muted: #d4e4dc;
+  --text-dark: #163028;
+
+  --accent-green: #5ad6a3;
+  --accent-emerald: #2f9b78;
+  --accent-orange: #d8af72;
+  --accent-cream: #f4f0e5;
+  --accent-navy: #7fa7cf;
+
+  --radius-xl: 26px;
+  --radius-lg: 18px;
+  --container: 1140px;
+
+  --shadow-lg: 0 22px 50px rgba(10, 23, 26, 0.28);
+  --shadow-soft: 0 12px 30px rgba(14, 29, 30, 0.18);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir Next", "Segoe UI Variable", "Trebuchet MS", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(1200px 720px at 5% 4%, rgba(90, 214, 163, 0.24), transparent 62%),
+    radial-gradient(980px 640px at 92% 8%, rgba(216, 175, 114, 0.2), transparent 62%),
+    radial-gradient(1000px 720px at 50% 112%, rgba(127, 167, 207, 0.18), transparent 64%),
+    linear-gradient(180deg, var(--bg-800), var(--bg-850) 48%, var(--bg-900));
+  background-attachment: fixed;
+}

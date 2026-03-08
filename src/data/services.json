@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "id": "s-001",
+      "slug": "catering-na-miru",
+      "title": "Catering na miru",
+      "summary": "Menu podle typu akce od coffee breaku po vecerni servis.",
+      "specs": [
+        "vegetarian a vegan varianty",
+        "prace s alergeny",
+        "mobilni vydaj",
+        "chef i servisni personal"
+      ],
+      "priceNote": "Cena od 390 Kc / host",
+      "typeLabel": "Sluzba",
+      "image": {
+        "src": "/images/events/event5-burger-grill-action.jpg",
+        "alt": "Catering station"
+      },
+      "mailto": "mailto:hello@northdock.events?subject=Poptavka%3A%20Catering%20na%20miru",
+      "content": [
+        { "type": "p", "text": "Navrh menu prizpusobime typu publika, rytmu programu a lokaci akce." }
+      ]
+    },
+    {
+      "id": "s-002",
+      "slug": "street-food-live-stations",
+      "title": "Street food live stations",
+      "summary": "Tematicke food kouty s obsluhou na miste.",
+      "specs": [
+        "burger / tacos / sliders",
+        "high-capacity servis",
+        "rychly setup a teardown",
+        "vhodne pro open-air"
+      ],
+      "priceNote": "Cena od 22 000 Kc / station",
+      "typeLabel": "Sluzba",
+      "image": {
+        "src": "/images/events/event2-tacos-preparation.jpg",
+        "alt": "Live station"
+      },
+      "mailto": "mailto:hello@northdock.events?subject=Poptavka%3A%20Street%20food%20live%20stations",
+      "content": [
+        { "type": "p", "text": "Live station pridava zazitek a drzi hosty v aktivni zone po celou dobu akce." }
+      ]
+    },
+    {
+      "id": "s-003",
+      "slug": "pujcovna-nabytku-a-gastro",
+      "title": "Pujcovna party nabytku a gastro vybaveni",
+      "summary": "Stoly, lavice, bary, chlazeni i zahrivaci prvky na jednu objednavku.",
+      "specs": [
+        "modularni sety podle kapacity",
+        "dovoz, instalace, odvoz",
+        "kombinace s cateringem",
+        "rezervace i pro samostatny rental"
+      ],
+      "priceNote": "Cena dle konfigurace",
+      "typeLabel": "Sluzba",
+      "image": {
+        "src": "/images/events/event6-street-sliders.jpg",
+        "alt": "Rental vybaveni"
+      },
+      "mailto": "mailto:hello@northdock.events?subject=Poptavka%3A%20Pujcovna%20party%20nabytku%20a%20gastro%20vybaveni",
+      "content": [
+        { "type": "p", "text": "Sestavime rental balicek, ktery odpovida typu prostoru i provoznimu zatizeni." }
+      ]
+    }
+  ]
+}

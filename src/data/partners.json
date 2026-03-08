@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": "p-001",
+      "slug": "atelier-svetelna-scena",
+      "title": "Atelier Svetelna Scena",
+      "summary": "Light design, stage rig a technicka koordinace.",
+      "logo": {
+        "src": "/images/events/event3-evening-crowd.jpg",
+        "alt": "Atelier Svetelna Scena"
+      },
+      "ctaUrl": "https://example.com/atelier-svetelna-scena",
+      "typeLabel": "Partner",
+      "content": [
+        { "type": "p", "text": "Resime svetelnou rezii a technicke napajeni eventu vcetne bezpecnostnich standardu." }
+      ]
+    },
+    {
+      "id": "p-002",
+      "slug": "brew-lab-mobile-bar",
+      "title": "Brew Lab Mobile Bar",
+      "summary": "Mobilni bar a nealko koktejly pro festivaly i firemni vecery.",
+      "logo": {
+        "src": "/images/events/event2-tacos-preparation.jpg",
+        "alt": "Brew Lab Mobile Bar"
+      },
+      "ctaUrl": "https://example.com/brew-lab",
+      "typeLabel": "Partner",
+      "content": [
+        { "type": "p", "text": "Spolecny setup bar + street food udrzuje plynuly servis bez front." }
+      ]
+    },
+    {
+      "id": "p-003",
+      "slug": "urban-stage-rental",
+      "title": "Urban Stage Rental",
+      "summary": "Podia, zastreseni a backstage zazemi.",
+      "logo": {
+        "src": "/images/events/event5-burger-grill-action.jpg",
+        "alt": "Urban Stage Rental"
+      },
+      "ctaUrl": "https://example.com/urban-stage-rental",
+      "typeLabel": "Partner",
+      "content": [
+        { "type": "p", "text": "Venkovni realizace se zaberou od maleho podia po celodenni program." }
+      ]
+    }
+  ]
+}
