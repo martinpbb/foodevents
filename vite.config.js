@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: mode === "production" ? "/liveevents/" : "/",
+  base: mode === "production" ? "/foodevents/" : "/",
 }));
