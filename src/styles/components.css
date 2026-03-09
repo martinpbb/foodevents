@@ -25,50 +25,110 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
-  padding: 14px 0;
+  gap: 10px;
+  padding: 12px 0;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
   text-decoration: none;
 }
 
-.brand:focus-visible {
-  outline: 2px solid rgba(127, 167, 207, 0.72);
-  outline-offset: 4px;
+.brandLogoShell {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  padding: 0 12px;
   border-radius: 14px;
+  background: linear-gradient(
+    180deg,
+    rgba(248, 252, 250, 0.95),
+    rgba(238, 246, 242, 0.92)
+  );
+  background: rgba(245, 249, 247, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+
+  box-shadow:
+    0 8px 22px rgba(0, 0, 0, 0.18),
+    0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.brandMark {
-  width: 36px;
-  height: 36px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, var(--accent-emerald), var(--accent-green), var(--accent-orange));
-  box-shadow: var(--shadow-soft);
+.brandLogo {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: 32px;
+  max-width: 210px;
+  object-fit: contain;
 }
 
-.brandText {
-  line-height: 1.08;
+.headerContact {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+  padding: 6px 10px;
+  gap: 8px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
-.brandName {
-  font-weight: 850;
-  letter-spacing: -0.025em;
+.contactIconLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  text-decoration: none;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
 }
 
-.brandTagline {
-  color: rgba(237, 247, 241, 0.78);
-  font-size: 12px;
+.contactIconLink:hover {
+  background: rgba(255, 255, 255, 0.22);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.contactIconLink.whatsapp {
+  color: #8ee7a8;
+}
+
+.contactNumber {
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.96);
+  text-decoration: none;
+}
+
+.contactNumber:hover {
+  color: #ffffff;
 }
 
 .navDesktop {
   display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
+  flex-wrap: nowrap;
+  gap: 18px;
+  margin-left: 24px;
+  padding-left: 24px;
   justify-content: flex-end;
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .navLink {
@@ -79,7 +139,7 @@
   border-radius: 999px;
   cursor: pointer;
   font-weight: 680;
-  font-size: 14px;
+  font-size: 1.08rem;
 }
 
 .navLink:hover {
@@ -151,7 +211,9 @@
   box-shadow: var(--shadow-lg);
   transform: translateY(-8px);
   opacity: 0;
-  transition: transform 0.25s ease, opacity 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
   padding: 12px;
 }
 
@@ -226,7 +288,12 @@
 .btn.primary {
   border: 0;
   color: var(--text-dark);
-  background: linear-gradient(135deg, var(--accent-cream), var(--accent-green) 54%, var(--accent-orange));
+  background: linear-gradient(
+    135deg,
+    var(--accent-cream),
+    var(--accent-green) 54%,
+    var(--accent-orange)
+  );
 }
 
 .btn.ghost {
@@ -273,8 +340,16 @@
   inset: 0;
   pointer-events: none;
   background:
-    radial-gradient(960px 540px at 8% 20%, rgba(90, 214, 163, 0.24), transparent 62%),
-    radial-gradient(920px 560px at 90% 16%, rgba(216, 175, 114, 0.2), transparent 64%),
+    radial-gradient(
+      960px 540px at 8% 20%,
+      rgba(90, 214, 163, 0.24),
+      transparent 62%
+    ),
+    radial-gradient(
+      920px 560px at 90% 16%,
+      rgba(216, 175, 114, 0.2),
+      transparent 64%
+    ),
     linear-gradient(180deg, rgba(245, 251, 247, 0.08), transparent 40%);
 }
 
@@ -336,7 +411,11 @@
   display: grid;
   gap: 12px;
   align-content: start;
-  background: linear-gradient(180deg, rgba(245, 251, 247, 0.24), rgba(245, 251, 247, 0.08));
+  background: linear-gradient(
+    180deg,
+    rgba(245, 251, 247, 0.24),
+    rgba(245, 251, 247, 0.08)
+  );
 }
 
 .heroImage {
@@ -827,7 +906,9 @@
 
 .partnerCard {
   display: block;
-  transition: transform 0.2s ease, background 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
 }
 
 .partnerCard:hover {
