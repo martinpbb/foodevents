@@ -33,6 +33,13 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  text-decoration: none;
+}
+
+.brand:focus-visible {
+  outline: 2px solid rgba(127, 167, 207, 0.72);
+  outline-offset: 4px;
+  border-radius: 14px;
 }
 
 .brandMark {
@@ -763,11 +770,14 @@
 .modalPanel {
   position: relative;
   width: min(900px, 100%);
+  max-height: calc(100vh - 36px);
   border-radius: var(--radius-xl);
   border: 1px solid rgba(233, 246, 238, 0.34);
   background: rgba(26, 48, 47, 0.95);
   box-shadow: var(--shadow-lg);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .modalHead {
@@ -784,6 +794,7 @@
 
 .modalBody {
   padding: 14px;
+  overflow: auto;
 }
 
 .modalFigure img {
@@ -1202,9 +1213,11 @@ textarea.input {
 }
 
 .eventLightboxFigure img {
-  width: 100%;
-  max-height: min(70vh, 720px);
+  width: auto;
+  max-width: 90vw;
+  max-height: 85vh;
   object-fit: contain;
+  margin: 0 auto;
 }
 
 .eventLightboxCaption {

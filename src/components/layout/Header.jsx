@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import site from "../../data/site.json";
 import MobileMenu from "./MobileMenu.jsx";
 
@@ -35,13 +35,13 @@ export default function Header() {
   return (
     <header className="header" data-cy="header">
       <div className="container headerRow">
-        <div className="brand" data-cy="brand" aria-label={site.brand?.name || "North Dock Events"}>
+        <Link to="/" className="brand" data-cy="brand" aria-label={site.brand?.name || "North Dock Events"}>
           <span className="brandMark" aria-hidden="true" />
           <div className="brandText">
             <div className="brandName">{site.brand?.name || "North Dock Events"}</div>
             <div className="brandTagline">{site.brand?.tagline || "Street food catering"}</div>
           </div>
-        </div>
+        </Link>
 
         <nav className="navDesktop" data-cy="nav-desktop" aria-label="Hlavni navigace">
           {items.map((item) => (
