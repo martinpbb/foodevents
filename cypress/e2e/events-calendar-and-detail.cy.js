@@ -61,7 +61,7 @@ describe("Events section, calendar and detail routes", () => {
       cy.assertHashPath(`/akce/${slug}`);
     });
 
-    cy.getByCy("detail-page").should("be.visible");
+    cy.getByCy("event-detail-page").should("be.visible");
     cy.getByCy("detail-title").should("not.be.empty");
     cy.getByCy("detail-date").should("contain", "Termin:");
     cy.getByCy("detail-place").should("contain", "Misto:");
