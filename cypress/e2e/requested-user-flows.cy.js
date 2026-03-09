@@ -1,4 +1,5 @@
 import servicesData from "../../src/data/services.json";
+import * as allure from "allure-js-commons";
 
 describe("Requested user interaction flows", () => {
   beforeEach(() => {
@@ -7,10 +8,13 @@ describe("Requested user interaction flows", () => {
   });
 
   it("A: opens gallery modal from Momentky and closes it via close button", () => {
+    cy.then(() => allure.step("Open photos section", () => {}));
     cy.getByCy("section-photos").scrollIntoView();
 
+    cy.then(() => allure.step("Open first gallery item", () => {}));
     cy.getByCy("gallery-item").first().click();
 
+    cy.then(() => allure.step("Validate modal content and close it", () => {}));
     cy.getByCy("modal").should("be.visible");
     cy.getByCy("modal-title").should("not.be.empty");
     cy.getByCy("modal").find("img").should("be.visible");
@@ -22,12 +26,15 @@ describe("Requested user interaction flows", () => {
   it("B: opens first service detail via Detail button and returns to homepage", () => {
     const firstService = servicesData.items[0];
 
+    cy.then(() => allure.step("Navigate to services section", () => {}));
     cy.getByCy("section-services").scrollIntoView();
 
+    cy.then(() => allure.step("Open service detail from first card", () => {}));
     cy.getByCy("service-card").first().within(() => {
       cy.getByCy("service-detail-link").should("exist").click();
     });
 
+    cy.then(() => allure.step("Verify detail and return to homepage", () => {}));
     cy.assertHashPath(`/sluzby/${firstService.slug}`);
     cy.getByCy("detail-page").should("be.visible");
     cy.getByCy("detail-title").should("contain", firstService.title);

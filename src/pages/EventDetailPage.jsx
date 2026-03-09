@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useLayoutEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
 import Modal from "../components/ui/Modal.jsx";
@@ -23,9 +23,7 @@ function formatDateLabel(item) {
   return `${format(from)} - ${format(to)}`;
 }
 
-export default function EventDetailPage() {
-  const { slug } = useParams();
-
+function EventDetailPageContent({ slug }) {
   const item = useMemo(() => {
     const source = Array.isArray(events?.items) ? events.items : [];
     return source.find((entry) => entry.slug === slug) || null;
@@ -41,11 +39,6 @@ export default function EventDetailPage() {
   const faq = Array.isArray(item?.faq) ? item.faq : [];
   const gallery = Array.isArray(item?.gallery) ? item.gallery : [];
   const content = Array.isArray(item?.content) ? item.content : [];
-
-  useEffect(() => {
-    setOpenFaqIndex(0);
-    setLightboxIndex(null);
-  }, [slug]);
 
   useEffect(() => {
     const hasLightbox = lightboxIndex !== null;
@@ -291,4 +284,14 @@ export default function EventDetailPage() {
       </Modal>
     </article>
   );
+}
+
+export default function EventDetailPage() {
+  const { slug } = useParams();
+
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, [slug]);
+
+  return <EventDetailPageContent key={slug} slug={slug} />;
 }

@@ -29,11 +29,11 @@ describe("Navigation and hash routing", () => {
     const target = eventsData.items[0];
     cy.visitHash(`/akce/${target.slug}`);
     cy.assertHashPath(`/akce/${target.slug}`);
-    cy.getByCy("detail-page").should("be.visible");
+    cy.getByCy("event-detail-page").should("be.visible");
     cy.getByCy("detail-title").should("contain", target.title);
 
     cy.reload();
-    cy.getByCy("detail-page").should("be.visible");
+    cy.getByCy("event-detail-page").should("be.visible");
     cy.getByCy("detail-title").should("contain", target.title);
   });
 });

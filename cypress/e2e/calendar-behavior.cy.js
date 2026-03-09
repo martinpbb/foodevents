@@ -64,6 +64,6 @@ describe("Calendar behavior interactions", () => {
         cy.assertHashPath(`/akce/${slug}`);
       });
 
-    cy.getByCy("detail-page").should("be.visible");
+    cy.getByCy("event-detail-page").should("be.visible");
   });
 });
