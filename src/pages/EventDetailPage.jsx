@@ -10,7 +10,7 @@ function formatDateLabel(item) {
   const from = parseISODate(item.dateFrom);
   const to = parseISODate(item.dateTo || item.dateFrom);
 
-  if (!from) return "Termin bude upresnen";
+  if (!from) return "Termín bude upřesněn";
 
   const format = (date) =>
     new Intl.DateTimeFormat("cs-CZ", {
@@ -67,10 +67,10 @@ function EventDetailPageContent({ slug }) {
   if (!item) {
     return (
       <div className="container pagePad" data-cy="detail-not-found">
-        <h1 className="h2">Polozka nenalezena</h1>
-        <p className="muted">Zkontrolujte odkaz nebo se vratte na hlavni stranku.</p>
+        <h1 className="h2">Položka nenalezena</h1>
+        <p className="muted">Zkontrolujte odkaz nebo se vraťte na hlavní stránku.</p>
         <Link className="btn primary lg" to="/">
-          Zpet na hlavni stranku
+          Zpět na hlavní stránku
         </Link>
       </div>
     );
@@ -78,7 +78,7 @@ function EventDetailPageContent({ slug }) {
 
   const typeLabel = item.typeLabel || item.eventType || "Akce";
   const dateLabel = formatDateLabel(item);
-  const placeLabel = item.where || item.place || "Misto bude upresneno";
+  const placeLabel = item.where || item.place || "Místo bude upřesněno";
   const currentGalleryItem = lightboxIndex !== null ? gallery[lightboxIndex] : null;
 
   return (
@@ -91,9 +91,9 @@ function EventDetailPageContent({ slug }) {
           {item.summary ? <p className="eventSummary">{item.summary}</p> : null}
 
           <div className="detailMeta eventMetaRow">
-            <span className="pill" data-cy="detail-date">Termin: {dateLabel}</span>
-            <span className="pill" data-cy="detail-place">Misto: {placeLabel}</span>
-            {item.eventType ? <span className="pill">Format: {item.eventType}</span> : null}
+            <span className="pill" data-cy="detail-date">Termín: {dateLabel}</span>
+            <span className="pill" data-cy="detail-place">Místo: {placeLabel}</span>
+            {item.eventType ? <span className="pill">Formát: {item.eventType}</span> : null}
           </div>
 
           {tags.length ? (
@@ -135,7 +135,7 @@ function EventDetailPageContent({ slug }) {
 
       {facts.length ? (
         <section className="eventSection" data-cy="event-facts">
-          <h2 className="h3">Klicove informace</h2>
+          <h2 className="h3">Klíčové informace</h2>
           <div className="eventFactsGrid">
             {facts.map((fact, index) => (
               <article className="eventFactCard" key={`${fact.label || "fact"}-${index}`}>
@@ -184,7 +184,7 @@ function EventDetailPageContent({ slug }) {
 
       {practicalInfo.length ? (
         <section className="eventSection" data-cy="event-practical-info">
-          <h2 className="h3">Prakticke informace</h2>
+          <h2 className="h3">Praktické informace</h2>
           <ul className="eventPracticalList">
             {practicalInfo.map((line, index) => (
               <li key={`practical-${index}`}>{line}</li>
@@ -228,7 +228,7 @@ function EventDetailPageContent({ slug }) {
                 key={`${image.thumb || image.full}-${index}`}
                 className="eventGalleryItem"
                 onClick={() => setLightboxIndex(index)}
-                aria-label={`Otevrit galerii: ${image.alt || `obrazek ${index + 1}`}`}
+                aria-label={`Otevřít galerii: ${image.alt || `obrázek ${index + 1}`}`}
               >
                 <img
                   src={image.thumb || image.full}
@@ -243,7 +243,7 @@ function EventDetailPageContent({ slug }) {
 
       <div className="detailCtas eventBottomCtas">
         <Link className="btn primary lg" to="/">
-          Zpet na hlavni stranku
+          Zpět na hlavní stránku
         </Link>
         {item.mailto ? (
           <a className="btn ghost" href={item.mailto}>
@@ -268,14 +268,14 @@ function EventDetailPageContent({ slug }) {
                   className="btn ghost"
                   onClick={() => setLightboxIndex((current) => (current - 1 + gallery.length) % gallery.length)}
                 >
-                  Predchozi
+                  Předchozí
                 </button>
                 <button
                   type="button"
                   className="btn ghost"
                   onClick={() => setLightboxIndex((current) => (current + 1) % gallery.length)}
                 >
-                  Dalsi
+                  Další
                 </button>
               </div>
             ) : null}

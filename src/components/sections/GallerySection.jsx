@@ -21,16 +21,16 @@ export default function GallerySection() {
     () => (Array.isArray(galleryData.items) ? galleryData.items : []),
     []
   );
-  const categories = useMemo(() => ["Vse", ...new Set(items.map((item) => item.category))], [items]);
-  const [activeCategory, setActiveCategory] = useState("Vse");
+  const categories = useMemo(() => ["Vše", ...new Set(items.map((item) => item.category))], [items]);
+  const [activeCategory, setActiveCategory] = useState("Vše");
 
   const filteredItems = useMemo(() => {
-    if (activeCategory === "Vse") return items;
+    if (activeCategory === "Vše") return items;
     return items.filter((item) => item.category === activeCategory);
   }, [items, activeCategory]);
 
   return (
-    <Section id="photos" kicker="Fotky" title="Momentky z akci a priprav">
+    <Section id="photos" kicker="Fotky" title="Momentky z akcí a příprav">
       <div ref={ref} className={`reveal ${revealed ? "isIn" : ""}`}>
         <div className="filters" role="tablist" aria-label="Filtr galerie">
           {categories.map((category) => (
@@ -56,7 +56,7 @@ export default function GallerySection() {
               className="galleryItem"
               type="button"
               onClick={() => setActiveItem(item)}
-              aria-label={`Otevrít fotku: ${item.alt}`}
+              aria-label={`Otevřít fotku: ${item.alt}`}
             >
               <img className="galleryImage" src={item.src} alt={item.alt} loading="lazy" />
               <span className="galleryMeta">{item.category}</span>

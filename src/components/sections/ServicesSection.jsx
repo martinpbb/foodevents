@@ -12,8 +12,8 @@ export default function ServicesSection() {
   return (
     <Section
       id="services"
-      kicker="Catering + Pujcovna"
-      title="Pujcovna party nabytku a gastro vybaveni"
+      kicker="Catering + půjčovna"
+      title="Půjčovna party nábytku a gastro vybavení"
     >
       <div ref={ref} data-cy="services-grid" className={`grid3 reveal ${revealed ? "isIn" : ""}`}>
         {services.map((service) => (

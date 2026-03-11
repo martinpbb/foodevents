@@ -3,23 +3,23 @@
     {
       "id": "p-001",
       "slug": "atelier-svetelna-scena",
-      "title": "Atelier Svetelna Scena",
-      "summary": "Light design, stage rig a technicka koordinace.",
+      "title": "Atelier Světelná Scéna",
+      "summary": "Light design, stage rig a technická koordinace.",
       "logo": {
         "src": "/images/events/event3-evening-crowd.jpg",
-        "alt": "Atelier Svetelna Scena"
+        "alt": "Atelier Světelná Scéna"
       },
       "ctaUrl": "https://example.com/atelier-svetelna-scena",
       "typeLabel": "Partner",
       "content": [
-        { "type": "p", "text": "Resime svetelnou rezii a technicke napajeni eventu vcetne bezpecnostnich standardu." }
+        { "type": "p", "text": "Řešíme světelnou režii a technické napájení eventu včetně bezpečnostních standardů." }
       ]
     },
     {
       "id": "p-002",
       "slug": "brew-lab-mobile-bar",
       "title": "Brew Lab Mobile Bar",
-      "summary": "Mobilni bar a nealko koktejly pro festivaly i firemni vecery.",
+      "summary": "Mobilní bar a nealko koktejly pro festivaly i firemní večery.",
       "logo": {
         "src": "/images/events/event2-tacos-preparation.jpg",
         "alt": "Brew Lab Mobile Bar"
@@ -27,14 +27,14 @@
       "ctaUrl": "https://example.com/brew-lab",
       "typeLabel": "Partner",
       "content": [
-        { "type": "p", "text": "Spolecny setup bar + street food udrzuje plynuly servis bez front." }
+        { "type": "p", "text": "Společný setup baru a street foodu udržuje plynulý servis bez front." }
       ]
     },
     {
       "id": "p-003",
       "slug": "urban-stage-rental",
       "title": "Urban Stage Rental",
-      "summary": "Podia, zastreseni a backstage zazemi.",
+      "summary": "Pódia, zastřešení a backstage zázemí.",
       "logo": {
         "src": "/images/events/event5-burger-grill-action.jpg",
         "alt": "Urban Stage Rental"
@@ -42,7 +42,7 @@
       "ctaUrl": "https://example.com/urban-stage-rental",
       "typeLabel": "Partner",
       "content": [
-        { "type": "p", "text": "Venkovni realizace se zaberou od maleho podia po celodenni program." }
+        { "type": "p", "text": "Venkovní realizace zaberou od malého pódia po celodenní program." }
       ]
     }
   ]
