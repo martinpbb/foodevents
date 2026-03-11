@@ -5,9 +5,9 @@ export default function NotFoundPage() {
   return (
     <div className="container pagePad" data-cy="not-found-page">
       <h1 className="h2">404</h1>
-      <p className="muted">Tato stranka neexistuje.</p>
+      <p className="muted">Tato stránka neexistuje.</p>
       <Link className="btn primary" to="/">
-        Zpet na hlavni stranku
+        Zpět na hlavní stránku
       </Link>
     </div>
   );

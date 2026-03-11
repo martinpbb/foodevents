@@ -17,7 +17,7 @@ function formatRange(item) {
 
   const from = parseISODate(item.dateFrom);
   const to = parseISODate(item.dateTo || item.dateFrom);
-  if (!from) return "Termin bude upresnen";
+  if (!from) return "Termín bude upřesněn";
 
   const format = (date) =>
     new Intl.DateTimeFormat("cs-CZ", {
@@ -53,14 +53,14 @@ export default function EventsSection() {
   }, [events]);
 
   return (
-    <Section id="events" kicker="Akce" title="Kalendar a nadchazejici terminy">
+    <Section id="events" kicker="Akce" title="Kalendář a nadcházející termíny">
       <div ref={ref} data-cy="events-layout" className={`eventsLayout reveal ${revealed ? "isIn" : ""}`}>
         <div className="card eventsCalendarCard">
           <MonthCalendar />
         </div>
 
         <div className="card subtle eventsUpcomingCard" data-cy="upcoming-events-section">
-          <h3 className="h3">Nadchazejici akce</h3>
+          <h3 className="h3">Nadcházející akce</h3>
           {upcoming.length ? (
             <div className="upcomingGrid" data-cy="upcoming-grid">
               {upcoming.map((event) => (
@@ -85,13 +85,13 @@ export default function EventsSection() {
                     <div className="eventTag">{event.eventType || "Akce"}</div>
                   </div>
                   <div className="muted">
-                    {formatRange(event)} | {event.place || "Misto neuvedeno"}
+                    {formatRange(event)} | {event.place || "Místo neuvedeno"}
                   </div>
                 </Link>
               ))}
             </div>
           ) : (
-            <div className="emptyHint">Zatim nejsou naplanovane zadne dalsi akce.</div>
+            <div className="emptyHint">Zatím nejsou naplánované žádné další akce.</div>
           )}
         </div>
       </div>

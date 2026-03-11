@@ -4,7 +4,7 @@ import site from "../../data/site.json";
 import { useRevealOnScroll } from "../../hooks/useRevealOnScroll.js";
 
 function buildMailto({ to, subject, name, email, message }) {
-  const lines = [`Jmeno: ${name || "-"}`, `Email: ${email || "-"}`, "", message || ""];
+  const lines = [`Jméno: ${name || "-"}`, `E-mail: ${email || "-"}`, "", message || ""];
   return `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join("\n"))}`;
 }
 
@@ -19,10 +19,10 @@ export default function ContactSection() {
   const [message, setMessage] = useState("");
 
   const contactEmail = contact.email || "hello@northdock.events";
-  const subject = contact.form?.subject || contact.mailSubject || "Poptavka";
+  const subject = contact.form?.subject || contact.mailSubject || "Poptávka";
   const phoneLabel = contact.phone || "+420 000 000 000";
   const phoneRaw = contact.phoneRaw || phoneLabel.replace(/\s+/g, "");
-  const address = contact.address || "Adresa bude doplnena";
+  const address = contact.address || "Adresa bude doplněna";
   const mapLink = contact.mapLink || "https://maps.google.com";
   const mapEmbedUrl =
     contact.mapEmbedUrl || "https://www.google.com/maps?q=Prague&output=embed";
@@ -52,49 +52,49 @@ export default function ContactSection() {
       className="contactBg"
       style={sectionStyle}
       kicker="Kontakt"
-      title="Ozvete se, pripravime navrh reseni"
+      title="Ozvěte se, připravíme návrh řešení"
     >
       <div ref={ref} data-cy="contact-layout" className={`grid2 reveal ${revealed ? "isIn" : ""}`}>
         <div className="card" data-cy="contact-info-card">
           <div className="h3">{site.brand?.name || "North Dock Events"}</div>
-          <p className="muted">{contact.note || "Napiste nam termin, misto a pocet hostu."}</p>
+          <p className="muted">{contact.note || "Napište nám termín, místo a počet hostů."}</p>
 
           <div className="contactList">
             <a data-cy="contact-phone" className="contactItem" href={`tel:${phoneRaw}`}>
               Telefon: {phoneLabel}
             </a>
             <a data-cy="contact-email" className="contactItem" href={`mailto:${contactEmail}`}>
-              Email: {contactEmail}
+              E-mail: {contactEmail}
             </a>
             <div data-cy="contact-address" className="contactItem">Adresa: {address}</div>
           </div>
 
           <div className="card subtle">
-            <div className="h3">Rychla zprava</div>
-            <div className="formGrid" aria-label="Kontaktni formular">
+            <div className="h3">Rychlá zpráva</div>
+            <div className="formGrid" aria-label="Kontaktní formulář">
               <input
                 data-cy="contact-input-name"
                 className="input"
                 value={name}
                 onChange={(event) => setName(event.target.value)}
-                placeholder="Jmeno"
-                aria-label="Jmeno"
+                placeholder="Jméno"
+                aria-label="Jméno"
               />
               <input
                 data-cy="contact-input-email"
                 className="input"
                 value={email}
                 onChange={(event) => setEmail(event.target.value)}
-                placeholder="Email"
-                aria-label="Email"
+                placeholder="E-mail"
+                aria-label="E-mail"
               />
               <textarea
                 data-cy="contact-input-message"
                 className="input"
                 value={message}
                 onChange={(event) => setMessage(event.target.value)}
-                placeholder="Zprava (termin, misto, pocet hostu, rozpocet)"
-                aria-label="Zprava"
+                placeholder="Zpráva (termín, místo, počet hostů, rozpočet)"
+                aria-label="Zpráva"
               />
 
               <div className="row">
@@ -107,16 +107,16 @@ export default function ContactSection() {
                     if (!canSend) event.preventDefault();
                   }}
                 >
-                  Odeslat pres email
+                  Odeslat přes e-mail
                 </a>
                 <a className="btn ghost" href={mapLink} target="_blank" rel="noreferrer">
-                  Otevrit mapu
+                  Otevřít mapu
                 </a>
               </div>
 
               {!canSend ? (
                 <div className="muted small">
-                  Vyplnte jmeno, email a minimalne 10 znaku zpravy.
+                  Vyplňte jméno, e-mail a minimálně 10 znaků zprávy.
                 </div>
               ) : null}
             </div>
@@ -131,7 +131,7 @@ export default function ContactSection() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
-          <div className="muted small">Mapa je vlozena pres iframe, bez backendu.</div>
+          <div className="muted small">Mapa je vložená přes iframe, bez backendu.</div>
         </div>
       </div>
     </Section>

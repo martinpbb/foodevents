@@ -1,7 +1,7 @@
 {
   "brand": {
     "name": "North Dock Events",
-    "tagline": "Street food catering a rental pro outdoor i indoor akce"
+    "tagline": "Street food catering a rental pro venkovní i indoorové akce"
   },
   "navigation": {
     "items": [
@@ -14,58 +14,58 @@
     ]
   },
   "hero": {
-    "kicker": "Catering a event produkce",
-    "title": "Street food zazitek, ktery funguje i logisticky",
-    "subtitle": "Navrhujeme, varime a provozne ridime akce od mensich firemnich setkani az po velke open-air eventy.",
+    "kicker": "Catering a eventová produkce",
+    "title": "Street food zážitek, který funguje i logisticky",
+    "subtitle": "Navrhujeme, vaříme a provozně řídíme akce od menších firemních setkání až po velké open-air eventy.",
     "stats": [
-      { "label": "Akci rocne", "value": "120+" },
-      { "label": "Hostu za sezonu", "value": "48k" },
-      { "label": "Mobilnich stanic", "value": "9" }
+      { "label": "Akcí ročně", "value": "120+" },
+      { "label": "Hostů za sezonu", "value": "48k" },
+      { "label": "Mobilních stanic", "value": "9" }
     ],
     "card": {
-      "title": "Co dostanete v zakladu",
+      "title": "Co dostanete v základu",
       "bullets": [
-        "Vlastni mobilni kuchyne a grill setup",
-        "Produkce na miste vcetne personalu",
-        "Pronajem nabytku a gastro vybaveni",
-        "Cisty harmonogram, jasna komunikace"
+        "Vlastní mobilní kuchyně a grill setup",
+        "Produkce na místě včetně personálu",
+        "Pronájem nábytku a gastro vybavení",
+        "Čistý harmonogram a jasná komunikace"
       ]
     },
     "image": {
       "src": "/images/events/event1-food-truck-evening.jpg",
-      "alt": "Vecerni food truck station"
+      "alt": "Večerní food truck station"
     }
   },
   "about": {
-    "title": "Zazemi kuchare, produkce i servisu",
-    "lead": "Jsme tym, ktery spojuje profesionalni gastronomii a eventovou realizaci v jednom workflow.",
-    "body": "Nevozime jen jidlo. Dodame koncept, setup, personal, rental i provozni koordinaci v den akce. Vysledkem je plynuly servis bez improvizace na posledni chvili.",
+    "title": "Zázemí kuchařů, produkce i servisu",
+    "lead": "Jsme tým, který spojuje profesionální gastronomii a eventovou realizaci v jednom workflow.",
+    "body": "Nevozíme jen jídlo. Dodáme koncept, setup, personál, rental i provozní koordinaci v den akce. Výsledkem je plynulý servis bez improvizace na poslední chvíli.",
     "steps": [
       {
-        "title": "Brief a navrh",
-        "text": "Spolecne nastavime styl akce, pocet hostu, rytmus servisu a prostorove pozadavky."
+        "title": "Brief a návrh",
+        "text": "Společně nastavíme styl akce, počet hostů, rytmus servisu a prostorové požadavky."
       },
       {
-        "title": "Produkcni plan",
-        "text": "Pripravime menu, logistiku, personal a deployment mobiliari i techniky."
+        "title": "Produkční plán",
+        "text": "Připravíme menu, logistiku, personál a deployment mobiliáře i techniky."
       },
       {
-        "title": "Realizace na miste",
-        "text": "Vedeme servis, dohlizime na kvalitu a drzi me casovy plan celeho programu."
+        "title": "Realizace na místě",
+        "text": "Vedeme servis, dohlížíme na kvalitu a držíme časový plán celého programu."
       }
     ]
   },
   "contact": {
-    "note": "Poslete nam termin, lokalitu a odhad poctu hostu. Odpovime s navrhem reseni a orientacni kalkulaci.",
+    "note": "Pošlete nám termín, lokalitu a odhad počtu hostů. Odpovíme s návrhem řešení a orientační kalkulací.",
     "phone": "+420 734 882 190",
     "phoneRaw": "+420734882190",
     "email": "hello@northdock.events",
-    "address": "Kotlarska 24, Brno",
-    "mailSubject": "Poptavka catering a rental",
+    "address": "Kotlářská 24, Brno",
+    "mailSubject": "Poptávka catering a rental",
     "mapLink": "https://maps.google.com/?q=Kotlarska+24+Brno",
     "mapEmbedUrl": "https://www.google.com/maps?q=Kotlarska%2024%20Brno&output=embed",
     "form": {
-      "subject": "Poptavka: North Dock Events"
+      "subject": "Poptávka: North Dock Events"
     }
   },
   "social": [
@@ -76,7 +76,7 @@
     "items": [
       {
         "id": "team-1",
-        "name": "Martin Kral",
+        "name": "Martin Král",
         "role": "Head chef a menu koncept",
         "image": {
           "src": "/images/team/team1-chef-portrait.jpg",
@@ -85,7 +85,7 @@
       },
       {
         "id": "team-2",
-        "name": "Lucie Novakova",
+        "name": "Lucie Nováková",
         "role": "Grill lead a event service",
         "image": {
           "src": "/images/team/team2-grill-chef.jpg",
