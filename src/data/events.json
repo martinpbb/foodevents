@@ -646,6 +646,166 @@
       ]
     },
     {
+      "id": "ev-005",
+      "slug": "burger-grill",
+      "title": "Burger Grill",
+      "subtitle": "Festival grilovaných burgerů v Praze",
+      "summary": "Burger Grill je neformální food event postavený na vůni rozpáleného grilu, poctivých burgerech, dobrém pivu a pohodové atmosféře. Během jednoho dne ochutnáte různé styly burgerů, klasické i netradiční kombinace a užijete si večer s přáteli bez zbytečně formálního programu.",
+      "eventType": "Food event",
+      "typeLabel": "Akce",
+      "category": "burger-festival",
+      "dateFrom": "2026-03-27",
+      "dateTo": "2026-03-27",
+      "place": "Praha",
+      "where": "Praha",
+      "when": "",
+      "image": {
+        "src": "/images/events/burger-food.jpg",
+        "alt": "Burger Grill festival v Praze"
+      },
+      "mailto": "mailto:hello@northdock.events?subject=Dotaz%20k%20akci%20Burger%20Grill",
+      "tags": [
+        "burger festival",
+        "street food",
+        "grilování",
+        "pivo",
+        "zábava",
+        "party"
+      ],
+      "keywords": [
+        "burger festival Praha",
+        "grilované burgery",
+        "street food Praha",
+        "food festival",
+        "burger event",
+        "grilování Praha",
+        "festival jídla"
+      ],
+      "facts": [
+        {
+          "label": "Formát",
+          "value": "Street food festival s otevřeným grilem"
+        },
+        {
+          "label": "Vhodné pro",
+          "value": "Přátele, páry, rodiny i větší skupiny"
+        },
+        {
+          "label": "Gastro",
+          "value": "Hovězí, kuřecí i vegetariánské burgery"
+        },
+        {
+          "label": "Atmosféra",
+          "value": "Gril, hudba, pivo a neformální posezení"
+        }
+      ],
+      "program": [
+        {
+          "time": "16:00",
+          "title": "Otevření areálu a první burgery z grilu"
+        },
+        {
+          "time": "17:00",
+          "title": "Rozjíždíme všechny grill station"
+        },
+        {
+          "time": "19:00",
+          "title": "Hlavní večerní část, hudba a plný provoz"
+        },
+        {
+          "time": "21:00",
+          "title": "Poslední hlavní vlna grilování"
+        },
+        {
+          "time": "22:00",
+          "title": "Volná večerní část a postupné ukončení akce"
+        }
+      ],
+      "practicalInfo": [
+        "Doporučujeme dorazit MHD, kapacita parkování v okolí může být omezená.",
+        "Burgery budou připravovány průběžně během celé akce.",
+        "V nabídce budou také vegetariánské varianty.",
+        "Nápoje bude možné zakoupit přímo na místě.",
+        "Akce je vhodná pro jednotlivce, páry i větší skupiny přátel.",
+        "V případě venkovního konání může být program upraven podle počasí."
+      ],
+      "faq": [
+        {
+          "question": "Jak daleko je akce od metra nebo zastávky?",
+          "answer": "Místo konání je přibližně 10 minut chůze od nejbližší zastávky MHD. Přesné spojení a název zastávky doplníme podle finálního místa konání."
+        },
+        {
+          "question": "Musím si burger rezervovat předem?",
+          "answer": "Ne. Burgery budou připravovány průběžně během celé akce. V nejvytíženějších časech ale může být krátká čekací doba."
+        },
+        {
+          "question": "Budou k dispozici i vegetariánské burgery?",
+          "answer": "Ano, součástí nabídky budou také bezmasé varianty."
+        },
+        {
+          "question": "Je akce vhodná i pro děti?",
+          "answer": "Ano, během odpolední části je koncept vhodný také pro rodiny. Večerní část bude mít živější festivalovou atmosféru."
+        },
+        {
+          "question": "Co když bude pršet?",
+          "answer": "Podle konkrétního prostoru bude připravena krytá varianta nebo upravený provoz. Aktuální informace zveřejníme před akcí."
+        }
+      ],
+      "gallery": [
+        {
+          "thumb": "/images/gallery/burger-grill-night-gal-1.png",
+          "full": "/images/gallery/burger-grill-night-gal-1.png",
+          "alt": "Burgery připravované na grilu"
+        },
+        {
+          "thumb": "/images/gallery/burger-grill-night-gal-2.png",
+          "full": "/images/gallery/burger-grill-night-gal-2.png",
+          "alt": "Atmosféra festivalu Burger Grill"
+        },
+        {
+          "thumb": "/images/gallery/burger-grill-night-gal-3.png",
+          "full": "/images/gallery/burger-grill-night-gal-3.png",
+          "alt": "Street food a grilování na Burger Grill"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "Burger Grill přináší do Prahy večer věnovaný tomu, co k dobré náladě jednoduše patří – rozpálenému grilu, šťavnatým burgerům a vychlazenému pivu."
+        },
+        {
+          "type": "h2",
+          "text": "Burgery přímo z grilu"
+        },
+        {
+          "type": "p",
+          "text": "Na jednom místě se potká několik burgerových variant, od klasického hovězího burgeru až po kuřecí a vegetariánské alternativy. Cílem není jen rychle se najíst, ale užít si celý večer jako malý street food festival."
+        },
+        {
+          "type": "p",
+          "text": "Grilování bude probíhat přímo před hosty, takže součástí akce bude také atmosféra otevřené kuchyně. K tomu přidáme hudbu, posezení a dostatek prostoru pro setkání s přáteli."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "burgery připravované přímo na grilu",
+            "hovězí, kuřecí i vegetariánské varianty",
+            "čepované pivo a další nápoje",
+            "hudba a neformální festivalová atmosféra",
+            "venkovní posezení a prostor pro přátele i větší skupiny"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Street food, pivo a pohodový večer"
+        },
+        {
+          "type": "p",
+          "text": "Burger Grill není jen o jednom jídle. Chceme vytvořit místo, kde můžete přijít na burger, zůstat na pivo a strávit několik hodin v pohodové atmosféře. Bez složitého programu, bez formálností – jen dobré jídlo, hudba a lidé."
+        }
+      ]
+    },
+    {
       "id": "ev-006",
       "slug": "street-sliders-festival",
       "title": "Street Sliders Festival",

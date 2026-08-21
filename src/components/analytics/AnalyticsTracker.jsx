@@ -6,8 +6,8 @@ export default function AnalyticsTracker() {
   const location = useLocation();
 
   useEffect(() => {
-    trackPage(location.pathname + location.hash);
-  }, [location]);
+    trackPage(`${location.pathname}${location.search}`, document.title);
+  }, [location.pathname, location.search]);
 
   return null;
 }

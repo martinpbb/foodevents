@@ -9,7 +9,11 @@
       { "id": "nav-events", "label": "Akce", "sectionId": "events" },
       { "id": "nav-photos", "label": "Fotky", "sectionId": "photos" },
       { "id": "nav-services", "label": "Služby", "sectionId": "services" },
-      { "id": "nav-partners", "label": "Spolupracujeme", "sectionId": "partners" },
+      {
+        "id": "nav-partners",
+        "label": "Spolupracujeme",
+        "sectionId": "partners"
+      },
       { "id": "nav-contact", "label": "Kontakt", "sectionId": "contact" }
     ]
   },
@@ -19,20 +23,19 @@
     "subtitle": "Navrhujeme, vaříme a provozně řídíme akce od menších firemních setkání až po velké open-air eventy.",
     "stats": [
       { "label": "Akcí ročně", "value": "120+" },
-      { "label": "Hostů za sezonu", "value": "48k" },
-      { "label": "Mobilních stanic", "value": "9" }
+      { "label": "Hostů za sezonu", "value": "148.000" },
+      { "label": "Půjčených zařízení měsíčně", "value": "9" }
     ],
     "card": {
-      "title": "Co dostanete v základu",
+      "title": "Catering, produkce a půjčovna na jednom místě",
       "bullets": [
-        "Vlastní mobilní kuchyně a grill setup",
-        "Produkce na místě včetně personálu",
-        "Pronájem nábytku a gastro vybavení",
-        "Čistý harmonogram a jasná komunikace"
+        "Jídlo podle vaší akce – menu sestavíme podle sezóny, počtu hostů a formátu. Od street food stánku pro 50 lidí až po celodenní produkci pro 500.",
+        "Všechno na klíč – vlastní kuchyně, grill setup, personál, nábytek i gastro vybavení. Vy určíte místo a čas, o zbytek se postaráme.",
+        "Produkce bez chaosu – jasný harmonogram, rychlá komunikace a jeden kontaktní člověk. Vždy víte, co se kdy děje."
       ]
     },
     "image": {
-      "src": "/images/events/event1-food-truck-evening.jpg",
+      "src": "/public/images/logo2.jpg",
       "alt": "Večerní food truck station"
     }
   },

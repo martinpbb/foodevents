@@ -1,0 +1,157 @@
+openapi: 3.0.3
+info:
+  title: FoodEvents API
+  version: 1.0.0
+  description: |
+    OpenAPI dokumentace pro správu rezervací.
+    Pokud máte jiné endpointy, upravte sekci `paths`.
+servers:
+  - url: http://localhost:3001
+    description: Local dev
+tags:
+  - name: Health
+  - name: Reservations
+  - name: Slots
+paths:
+  /health:
+    get:
+      tags: [Health]
+      summary: Health check
+      responses:
+        "200":
+          description: Backend je dostupný
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthResponse"
+  /slots:
+    get:
+      tags: [Slots]
+      summary: Dostupné časy pro zadané datum
+      parameters:
+        - in: query
+          name: date
+          required: true
+          description: Datum ve formátu YYYY-MM-DD
+          schema:
+            type: string
+            format: date
+            example: "2026-03-20"
+      responses:
+        "200":
+          description: Dostupné sloty
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SlotsResponse"
+        "400":
+          description: Chybějící nebo neplatný parametr date
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+  /reservation:
+    post:
+      tags: [Reservations]
+      summary: Vytvoření rezervace
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateReservationRequest"
+      responses:
+        "201":
+          description: Rezervace vytvořena
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CreateReservationResponse"
+        "400":
+          description: Nevalidní vstup
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+components:
+  schemas:
+    HealthResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          example: OK
+        timestamp:
+          type: string
+          format: date-time
+          example: "2026-03-19T10:00:00.000Z"
+      required: [status, timestamp]
+    SlotsResponse:
+      type: object
+      properties:
+        date:
+          type: string
+          format: date
+          example: "2026-03-20"
+        slots:
+          type: array
+          items:
+            type: string
+            example: "18:30"
+      required: [date, slots]
+    CreateReservationRequest:
+      type: object
+      properties:
+        name:
+          type: string
+          example: "Jan Novak"
+        email:
+          type: string
+          format: email
+          example: "jan.novak@example.com"
+        phone:
+          type: string
+          example: "+420777123456"
+        guests:
+          type: integer
+          minimum: 1
+          maximum: 20
+          example: 4
+        date:
+          type: string
+          format: date
+          example: "2026-03-20"
+        time:
+          type: string
+          pattern: "^([01]\\d|2[0-3]):([0-5]\\d)$"
+          example: "18:30"
+      required: [name, email, phone, guests, date, time]
+    CreateReservationResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          type: object
+          additionalProperties: true
+      required: [success, data]
+    ErrorResponse:
+      type: object
+      properties:
+        statusCode:
+          type: integer
+          example: 400
+        error:
+          type: string
+          example: Request failed
+        details:
+          type: object
+          additionalProperties: true
+        path:
+          type: string
+          example: /slots?date=2026-03-20
+        timestamp:
+          type: string
+          format: date-time
+      required: [statusCode, error, path, timestamp]

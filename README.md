@@ -189,3 +189,12 @@ This repository and its contents are provided for viewing purposes only.
 You may not copy, modify, distribute, sublicense, or use this code,
 in whole or in part, in any commercial or non-commercial project
 without explicit written permission from the author.
+## API dokumentace (Swagger)
+
+Swagger UI je dostupné na adrese:
+
+```text
+http://localhost:3001/docs/
+```
+
+Pozn.: U této aplikace je použity `HashRouter`, proto je API dokumentace rešena jako statická stránka v `public/docs`.

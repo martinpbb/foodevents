@@ -1,5 +1,4 @@
 import React, { useMemo, useState } from "react";
-import { MessageCircle, Phone } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import site from "../../data/site.json";
@@ -37,14 +36,17 @@ export default function Header() {
   return (
     <header className="header" data-cy="header">
       <div className="container headerRow">
-        <Link to="/" className="brand" data-cy="brand" aria-label={site.brand?.name || "North Dock Events"}>
-          <span className="brandLogoShell">
-            <img
-              className="brandLogo"
-              src="/images/logo.png"
-              alt="North Dock Events"
-            />
-          </span>
+        <Link
+          to="/"
+          className="brand"
+          data-cy="brand"
+          aria-label={site.brand?.name || "North Dock Events"}
+        >
+          <img
+            className="brandLogo"
+            src="/images/foodevents-banner-logo.png"
+            alt="North Dock Events"
+          />
         </Link>
         <div className="headerContact" aria-label="Contact options">
           <a
@@ -57,12 +59,20 @@ export default function Header() {
             <FaWhatsapp size={16} strokeWidth={2.2} />
           </a>
 
-          <a className="contactNumber" href="tel:+420722552500"  aria-label="Call +420 722 552 500">
+          <a
+            className="contactNumber"
+            href="tel:+420722552500"
+            aria-label="Call +420 722 552 500"
+          >
             +420 722 552 500
           </a>
         </div>
 
-        <nav className="navDesktop" data-cy="nav-desktop" aria-label="Hlavni navigace">
+        <nav
+          className="navDesktop"
+          data-cy="nav-desktop"
+          aria-label="Hlavni navigace"
+        >
           {items.map((item) => (
             <button
               key={item.id}
