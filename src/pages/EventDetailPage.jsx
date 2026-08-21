@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
 import Modal from "../components/ui/Modal.jsx";
@@ -289,7 +289,7 @@ function EventDetailPageContent({ slug }) {
 export default function EventDetailPage() {
   const { slug } = useParams();
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, [slug]);
 

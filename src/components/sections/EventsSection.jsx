@@ -60,7 +60,12 @@ export default function EventsSection() {
         </div>
 
         <div className="card subtle eventsUpcomingCard" data-cy="upcoming-events-section">
-          <h3 className="h3">Nadcházející akce</h3>
+          <div className="eventCardTop">
+            <h3 className="h3">Nadcházející akce</h3>
+            <Link to="/akce" className="pill linkPill">
+              Všechny akce
+            </Link>
+          </div>
           {upcoming.length ? (
             <div className="upcomingGrid" data-cy="upcoming-grid">
               {upcoming.map((event) => (
