@@ -23,7 +23,7 @@
     "subtitle": "Navrhujeme, vaříme a provozně řídíme akce od menších firemních setkání až po velké open-air eventy.",
     "stats": [
       { "label": "Akcí ročně", "value": "120+" },
-      { "label": "Hostů za sezonu", "value": "148.000" },
+      { "label": "Hostů za sezonu", "value": "52.550" },
       { "label": "Půjčených zařízení měsíčně", "value": "9" }
     ],
     "card": {
@@ -35,7 +35,7 @@
       ]
     },
     "image": {
-      "src": "/public/images/logo2.jpg",
+      "src": "/images/logo2.jpg",
       "alt": "Večerní food truck station"
     }
   },
