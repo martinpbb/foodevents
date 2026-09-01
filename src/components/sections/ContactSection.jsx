@@ -18,7 +18,7 @@ export default function ContactSection() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const contactEmail = contact.email || "hello@northdock.events";
+  const contactEmail = contact.email || "info@foodevents.cz";
   const subject = contact.form?.subject || contact.mailSubject || "Poptávka";
   const phoneLabel = contact.phone || "+420 000 000 000";
   const phoneRaw = contact.phoneRaw || phoneLabel.replace(/\s+/g, "");

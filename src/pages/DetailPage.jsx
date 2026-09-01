@@ -1,10 +1,11 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
 import events from "../data/events.json";
 import partners from "../data/partners.json";
 import services from "../data/services.json";
 import { parseISODate } from "../components/calendar/calendarUtils.js";
+import Modal from "../components/ui/Modal.jsx";
 
 const dataSources = { events, partners, services };
 
@@ -33,6 +34,7 @@ function formatDateLabel(item) {
 
 export default function DetailPage({ dataKey }) {
   const { slug } = useParams();
+  const [rentalImage, setRentalImage] = useState(null);
 
   const item = useMemo(() => {
     const items = getItems(dataKey);
@@ -108,6 +110,47 @@ export default function DetailPage({ dataKey }) {
         <p className="muted">Obsah bude doplnen.</p>
       )}
 
+      {item.rental?.items?.length ? (
+        <section className="rentalCatalogue" aria-labelledby="rental-catalogue-title">
+          <div className="rentalCatalogueIntro">
+            <div>
+              <div className="eyebrow">Půjčovna</div>
+              <h2 id="rental-catalogue-title" className="h2">Vybavení k zapůjčení</h2>
+              <p className="lead">{item.rental.subtitle}</p>
+            </div>
+          </div>
+
+          <div className="rentalGrid">
+            {item.rental.items.map((rentalItem) => (
+              <article className="rentalCard" key={rentalItem.name}>
+                <button
+                  type="button"
+                  className="rentalImageButton"
+                  onClick={() => setRentalImage(rentalItem)}
+                  aria-label={`Zobrazit náhled: ${rentalItem.name}`}
+                >
+                  <img src={rentalItem.image} alt={rentalItem.name} loading="lazy" />
+                </button>
+                <div className="rentalCardBody">
+                  <h3 className="rentalCardTitle">{rentalItem.name}</h3>
+                  <p className="rentalPrice">{rentalItem.price}</p>
+                  {rentalItem.note ? <p className="rentalNote">{rentalItem.note}</p> : <div className="rentalNote rentalNoteSpacer" aria-hidden="true" />}
+                </div>
+              </article>
+            ))}
+
+            <article className="rentalCard rentalCtaCard">
+              <div className="rentalCardBody">
+                <div className="eyebrow">Individuální poptávka</div>
+                <h3 className="rentalCardTitle">Hledáte něco dalšího?</h3>
+                <p className="rentalCtaText">Další gastro a eventové vybavení zajistíme dle aktuální dostupnosti.</p>
+                {item.mailto ? <a className="btn primary" href={item.mailto}>Poptat vybavení</a> : null}
+              </div>
+            </article>
+          </div>
+        </section>
+      ) : null}
+
       <div className="detailCtas">
         <Link className="btn primary lg" to="/">
           Zpet na hlavni stranku
@@ -118,6 +161,19 @@ export default function DetailPage({ dataKey }) {
           </a>
         ) : null}
       </div>
+
+      <Modal
+        open={Boolean(rentalImage)}
+        title={rentalImage?.name || "Náhled vybavení"}
+        onClose={() => setRentalImage(null)}
+      >
+        {rentalImage ? (
+          <figure className="rentalLightboxFigure">
+            <img src={rentalImage.image} alt={rentalImage.name} />
+            <figcaption className="eventLightboxCaption">{rentalImage.name}</figcaption>
+          </figure>
+        ) : null}
+      </Modal>
     </article>
   );
 }

@@ -49,7 +49,7 @@ export default function ServicesSection() {
               <a
                 data-cy="service-mailto-link"
                 className="btn ghost"
-                href={service.mailto || `mailto:${site.contact?.email || "hello@northdock.events"}`}
+                href={service.mailto || `mailto:${site.contact?.email || "info@foodevents.cz"}`}
               >
                 Poptat
               </a>
