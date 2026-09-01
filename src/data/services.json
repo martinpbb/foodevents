@@ -11,13 +11,13 @@
         "mobilní výdej",
         "chef i servisní personál"
       ],
-      "priceNote": "Cena od 390 Kč / host",
+      "priceNote": "Cena dle poptávky a množství",
       "typeLabel": "Služba",
       "image": {
-        "src": "/images/events/event5-burger-grill-action.jpg",
+        "src": "/images/gallery/event5-burger.jpg",
         "alt": "Catering station"
       },
-      "mailto": "mailto:hello@northdock.events?subject=Poptavka%3A%20Catering%20na%20miru",
+      "mailto": "mailto:info@foodevents.cz?subject=Poptavka%3A%20Catering%20na%20miru",
       "content": [
         { "type": "p", "text": "Návrh menu přizpůsobíme typu publika, rytmu programu a lokaci akce." }
       ]
@@ -25,7 +25,7 @@
     {
       "id": "s-002",
       "slug": "street-food-live-stations",
-      "title": "Street food live stations",
+      "title": "Organizovaní a ozvučení akci",
       "summary": "Tematické food kouty s obsluhou na místě.",
       "specs": [
         "burger / tacos / sliders",
@@ -33,13 +33,13 @@
         "rychlý setup a teardown",
         "vhodné pro open-air"
       ],
-      "priceNote": "Cena od 22 000 Kč / station",
+      "priceNote": "Cena dle poptávky a typu akce",
       "typeLabel": "Služba",
       "image": {
-        "src": "/images/events/event2-tacos-preparation.jpg",
+        "src": "/images/gallery/event2.jpg",
         "alt": "Live station"
       },
-      "mailto": "mailto:hello@northdock.events?subject=Poptavka%3A%20Street%20food%20live%20stations",
+      "mailto": "mailto:info@foodevents.cz?subject=Poptavka%3A%20Street%20food%20live%20stations",
       "content": [
         { "type": "p", "text": "Live station přidává zážitek a drží hosty v aktivní zóně po celou dobu akce." }
       ]
@@ -58,13 +58,35 @@
       "priceNote": "Cena dle konfigurace",
       "typeLabel": "Služba",
       "image": {
-        "src": "/images/events/event6-street-sliders.jpg",
+        "src": "/images/services/1.jpg",
         "alt": "Rental vybavení"
       },
-      "mailto": "mailto:hello@northdock.events?subject=Poptavka%3A%20Pujcovna%20party%20nabytku%20a%20gastro%20vybaveni",
+      "mailto": "mailto:info@foodevents.cz?subject=Poptavka%3A%20Pujcovna%20party%20nabytku%20a%20gastro%20vybaveni",
       "content": [
         { "type": "p", "text": "Sestavíme rental balíček, který odpovídá typu prostoru i provoznímu zatížení." }
-      ]
+      ],
+      "rental": {
+        "subtitle": "Vyberte si vybavení pro váš event. Další položky zajistíme dle dostupnosti.",
+        "items": [
+          { "name": "Saeco Aulika", "price": "300 Kč / den", "note": "+ naše káva", "image": "/images/services/1.jpg" },
+          { "name": "Saeco Aulika Evo", "price": "450 Kč / den", "note": "+ naše káva", "image": "/images/services/2.webp" },
+          { "name": "Saeco Royal", "price": "350 Kč / den", "note": "+ naše káva", "image": "/images/services/3.avif" },
+          { "name": "Saeco Stratos", "price": "250 Kč / den", "note": "+ naše káva", "image": "/images/services/4.webp" },
+          { "name": "Elektrický gril", "price": "500 Kč / den", "image": "/images/services/5.webp" },
+          { "name": "Smažicí pánev", "price": "600 Kč / den", "image": "/images/services/6.jpg" },
+          { "name": "Fritéza 5 l", "price": "400 Kč / den", "image": "/images/services/7.jpg" },
+          { "name": "Fritéza 2 × 6 l", "price": "600 Kč / den", "image": "/images/services/8.webp" },
+          { "name": "Cateringový stůl 180 × 78 cm", "price": "120 Kč / den", "note": "Ubrus / streč +80 Kč / den", "image": "/images/services/9.jpg" },
+          { "name": "Nápojová váza s kohoutem", "price": "80 Kč / den", "image": "/images/services/10.jpg" },
+          { "name": "Chafing", "price": "150 Kč / den", "image": "/images/services/11.jpg" },
+          { "name": "Kotlík na polévku 10 l", "price": "150 Kč / den", "image": "/images/services/12.webp" },
+          { "name": "Nerezový kotlík na polévku 10 l", "price": "180 Kč / den", "image": "/images/services/13.webp" },
+          { "name": "Ohřívač párků s trny", "price": "330 Kč / den", "image": "/images/services/14.webp" },
+          { "name": "Stan 3 × 3 m", "price": "800 Kč / den", "note": "Bočnice +80 Kč / ks", "image": "/images/services/15.jpg" },
+          { "name": "Pivní set", "price": "180 Kč / den", "image": "/images/services/16.jpg" },
+          { "name": "Výčep s kompresorem – 2 kohouty", "price": "600 Kč / den", "image": "/images/services/17.jpg" }
+        ]
+      }
     }
   ]
 }

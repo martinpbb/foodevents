@@ -2,51 +2,81 @@
   "items": [
     {
       "id": "g-001",
-      "src": "/images/events/event1-food-truck-evening.jpg",
+      "src": "/images/gallery/event1-pig.jpg",
       "alt": "Food truck station at dusk",
-      "category": "Event"
-    },
-    {
-      "id": "g-002",
-      "src": "/images/events/event2-tacos-preparation.jpg",
-      "alt": "Live tacos prep",
-      "category": "Kitchen"
+      "category": "Food"
     },
     {
       "id": "g-003",
-      "src": "/images/events/event3-evening-crowd.jpg",
+      "src": "/images/gallery/event2-pancake.jpg",
       "alt": "Evening audience and tables",
-      "category": "Event"
+      "category": "Sweet"
     },
     {
       "id": "g-004",
-      "src": "/images/events/event4-founder-portrait.jpg",
+      "src": "/images/gallery/music-setup.jpg",
       "alt": "Founder portrait",
       "category": "Team"
     },
     {
       "id": "g-005",
-      "src": "/images/events/event5-burger-grill-action.jpg",
+      "src": "/images/gallery/event5-burger.jpg",
       "alt": "Flame grill station",
-      "category": "Kitchen"
+      "category": "Food"
     },
     {
       "id": "g-006",
-      "src": "/images/events/event6-street-sliders.jpg",
+      "src": "/images/gallery/event4-langos.jpg",
       "alt": "Street sliders plating",
-      "category": "Menu"
+      "category": "Food"
     },
     {
       "id": "g-007",
-      "src": "/images/team/team1-chef-portrait.jpg",
+      "src": "/images/gallery/event7-pancake.jpg",
       "alt": "Head chef",
-      "category": "Team"
+      "category": "Sweet"
     },
     {
       "id": "g-008",
-      "src": "/images/team/team2-grill-chef.jpg",
-      "alt": "Grill chef",
-      "category": "Team"
+      "src": "/images/gallery/event1.jpg",
+      "alt": "Evening audience and tables",
+      "category": "Event"
+    },
+    {
+      "id": "g-009",
+      "src": "/images/gallery/event2.jpg",
+      "alt": "Evening audience and tables",
+      "category": "Event"
+    },
+    {
+      "id": "g-010",
+      "src": "/images/gallery/event3.jpg",
+      "alt": "Evening audience and tables",
+      "category": "Event"
+    },
+    {
+      "id": "g-011",
+      "src": "/images/gallery/event4.jpg",
+      "alt": "Evening audience and tables",
+      "category": "Event"
+    },
+    {
+      "id": "g-012",
+      "src": "/images/gallery/event6-mini-burger.jpg",
+      "alt": "Evening audience and tables",
+      "category": "Food"
+    },
+    {
+      "id": "g-013",
+      "src": "/images/gallery/ovocny-kosicek.jpg",
+      "alt": "Evening audience and tables",
+      "category": "Sweet"
+    },
+    {
+      "id": "g-014",
+      "src": "/images/gallery/wrap-tortila.jpg",
+      "alt": "Evening audience and tables",
+      "category": "Food"
     }
   ]
 }
