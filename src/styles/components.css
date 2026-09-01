@@ -336,7 +336,7 @@
 .heroInner {
   position: relative;
   display: grid;
-  grid-template-columns: 1.12fr 0.88fr;
+  grid-template-columns: 1.18fr 0.82fr;
   gap: 22px;
   align-items: stretch;
 }
@@ -389,32 +389,33 @@
 
 .heroVisual {
   display: grid;
-  gap: 12px;
+  gap: 10px;
   align-content: start;
   background: linear-gradient(
     180deg,
     rgba(245, 251, 247, 0.24),
     rgba(245, 251, 247, 0.08)
   );
+  padding: 16px;
 }
 
 .heroImage {
   width: 100%;
-  height: 450px;
-  object-fit: cover;
-  object-position: center 26%;
+  height: 360px;
+  object-fit: contain;
+  object-position: center;
   border-radius: 18px;
   border: 1px solid rgba(236, 247, 242, 0.42);
 }
 
 .heroCard {
-  padding: 2px 2px 4px;
+  padding: 0 2px 2px;
 }
 
 .heroCardTitle {
   font-weight: 860;
-  margin-bottom: 10px;
-  font-size: 20px;
+  margin-bottom: 8px;
+  font-size: 18px;
 }
 
 .checkList {
@@ -439,6 +440,10 @@
 
   .heroImage {
     height: 290px;
+  }
+
+  .heroVisual {
+    padding: 20px;
   }
 }
 
@@ -1355,9 +1360,13 @@ textarea.input {
   margin-top: 30px;
 }
 
+.teamPhotoWrap {
+  aspect-ratio: 4 / 5;
+}
+
 .teamGrid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
   margin-top: 14px;
 }
@@ -1370,13 +1379,11 @@ textarea.input {
 }
 
 .teamPhoto {
-  width: min(100%, 561px);
-  aspect-ratio: 1 / 1;
-  height: auto;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  object-position: center 22%;
-  margin-left: auto;
-  margin-right: auto;
+  object-position: center 5%;
+  display: block;
 }
 
 .teamMeta {
@@ -1388,6 +1395,17 @@ textarea.input {
 }
 
 @media (max-width: 940px) {
+  .teamGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footerRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
   .teamGrid {
     grid-template-columns: 1fr;
   }
