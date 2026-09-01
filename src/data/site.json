@@ -1,103 +1,143 @@
 {
-  "brand": {
-    "name": "North Dock Events",
-    "tagline": "Street food catering a rental pro venkovní i indoorové akce"
-  },
-  "navigation": {
-    "items": [
-      { "id": "nav-about", "label": "Kdo jsme", "sectionId": "about" },
-      { "id": "nav-events", "label": "Akce", "sectionId": "events" },
-      { "id": "nav-photos", "label": "Fotky", "sectionId": "photos" },
-      { "id": "nav-services", "label": "Služby", "sectionId": "services" },
-      {
-        "id": "nav-partners",
-        "label": "Spolupracujeme",
-        "sectionId": "partners"
-      },
-      { "id": "nav-contact", "label": "Kontakt", "sectionId": "contact" }
-    ]
-  },
-  "hero": {
-    "kicker": "Catering a eventová produkce",
-    "title": "Street food zážitek, který funguje i logisticky",
-    "subtitle": "Navrhujeme, vaříme a provozně řídíme akce od menších firemních setkání až po velké open-air eventy.",
-    "stats": [
-      { "label": "Akcí ročně", "value": "120+" },
-      { "label": "Hostů za sezonu", "value": "52.550" },
-      { "label": "Půjčených zařízení měsíčně", "value": "9" }
-    ],
-    "card": {
-      "title": "Catering, produkce a půjčovna na jednom místě",
-      "bullets": [
-        "Jídlo podle vaší akce – menu sestavíme podle sezóny, počtu hostů a formátu. Od street food stánku pro 50 lidí až po celodenní produkci pro 500.",
-        "Všechno na klíč – vlastní kuchyně, grill setup, personál, nábytek i gastro vybavení. Vy určíte místo a čas, o zbytek se postaráme.",
-        "Produkce bez chaosu – jasný harmonogram, rychlá komunikace a jeden kontaktní člověk. Vždy víte, co se kdy děje."
-      ]
+    "brand": {
+        "name": "North Dock Events",
+        "tagline": "Street food catering a rental pro venkovní i indoorové akce"
     },
-    "image": {
-      "src": "/images/logo2.jpg",
-      "alt": "Večerní food truck station"
-    }
-  },
-  "about": {
-    "title": "Zázemí kuchařů, produkce i servisu",
-    "lead": "Jsme tým, který spojuje profesionální gastronomii a eventovou realizaci v jednom workflow.",
-    "body": "Nevozíme jen jídlo. Dodáme koncept, setup, personál, rental i provozní koordinaci v den akce. Výsledkem je plynulý servis bez improvizace na poslední chvíli.",
-    "steps": [
-      {
-        "title": "Brief a návrh",
-        "text": "Společně nastavíme styl akce, počet hostů, rytmus servisu a prostorové požadavky."
-      },
-      {
-        "title": "Produkční plán",
-        "text": "Připravíme menu, logistiku, personál a deployment mobiliáře i techniky."
-      },
-      {
-        "title": "Realizace na místě",
-        "text": "Vedeme servis, dohlížíme na kvalitu a držíme časový plán celého programu."
-      }
-    ]
-  },
-  "contact": {
-    "note": "Pošlete nám termín, lokalitu a odhad počtu hostů. Odpovíme s návrhem řešení a orientační kalkulací.",
-    "phone": "+420 734 882 190",
-    "phoneRaw": "+420734882190",
-    "email": "hello@northdock.events",
-    "address": "Kotlářská 24, Brno",
-    "mailSubject": "Poptávka catering a rental",
-    "mapLink": "https://maps.google.com/?q=Kotlarska+24+Brno",
-    "mapEmbedUrl": "https://www.google.com/maps?q=Kotlarska%2024%20Brno&output=embed",
-    "form": {
-      "subject": "Poptávka: North Dock Events"
-    }
-  },
-  "social": [
-    { "label": "Instagram", "url": "https://instagram.com" },
-    { "label": "Facebook", "url": "https://facebook.com" }
-  ],
-  "team": {
-    "items": [
-      {
-        "id": "team-1",
-        "name": "Martin Král",
-        "role": "Head chef a menu koncept",
+    "navigation": {
+        "items": [
+            { "id": "nav-about", "label": "Kdo jsme", "sectionId": "about" },
+            { "id": "nav-events", "label": "Akce", "sectionId": "events" },
+            { "id": "nav-photos", "label": "Fotky", "sectionId": "photos" },
+            {
+                "id": "nav-services",
+                "label": "Půjčovna",
+                "sectionId": "services"
+            },
+            {
+                "id": "nav-partners",
+                "label": "Spolupracujeme",
+                "sectionId": "partners"
+            },
+            { "id": "nav-contact", "label": "Kontakt", "sectionId": "contact" }
+        ]
+    },
+    "hero": {
+        "kicker": "Catering a eventová produkce",
+        "title": "Street food zážitek",
+        "subtitle": "Gastronomie, která spojuje lidi a zážitky",
+        "stats": [
+            { "label": "Akcí ročně", "value": "120+" },
+            { "label": "Hostů za sezonu", "value": "32.550" },
+            { "label": "Půjčených zařízení měsíčně", "value": "138" }
+        ],
+        "card": {
+            "title": "Catering, produkce a půjčovna na jednom místě",
+            "bullets": [
+                "Street food & catering",
+                "Kompletní gastro vybavení",
+                "Produkce od A do Z",
+                "Půjčovna vybavení"
+            ]
+        },
         "image": {
-          "src": "/images/team/team1-chef-portrait.jpg",
-          "alt": "Head chef portrait"
+            "src": "/images/logo2.jpg",
+            "alt": "Večerní food truck station"
         }
-      },
-      {
-        "id": "team-2",
-        "name": "Lucie Nováková",
-        "role": "Grill lead a event service",
-        "image": {
-          "src": "/images/team/team2-grill-chef.jpg",
-          "alt": "Grill chef in action"
+    },
+    "about": {
+        "kicker": "Kdo jsme",
+        "title": "Dobré jídlo. Hladký servis. Spokojení hosté.",
+        "lead": "Tvoříme nezapomenutelné gastronomické zážitky.",
+        "body": [
+            "Dobře najezený host je spokojený host. Na tom stavíme naše cateringové služby – kvalitní jídlo, profesionální servis a hladký průběh celé akce.",
+            "Zajišťujeme catering pro firemní večírky, svatby, festivaly, soukromé oslavy i venkovní akce. Připravíme menu, personál, vybavení, mobilní bary, stánky i potřebné gastronomické zázemí.",
+            "Každá akce je jiná, proto catering přizpůsobujeme prostoru, počtu hostů i charakteru celé události.",
+            "Vy se můžete věnovat svým hostům. O catering se postaráme my."
+        ],
+        "servicesTitle": "Co pro vás zajistíme",
+        "steps": [
+            {
+                "title": "Catering na míru",
+                "text": "Menu i podobu servisu přizpůsobíme typu akce, počtu hostů a vašim požadavkům."
+            },
+            {
+                "title": "Vybavení a zázemí",
+                "text": "Zajistíme mobilní bary, stánky, gastro vybavení i potřebné zázemí pro celou akci."
+            },
+            {
+                "title": "Personál a servis",
+                "text": "Postaráme se o kuchaře, obsluhu, koordinaci týmu i hladký průběh cateringu."
+            }
+        ],
+        "teamTitle": "Náš tým"
+    },
+    "contact": {
+        "note": "Pošlete nám termín, lokalitu a odhad počtu hostů. Odpovíme s návrhem řešení a orientační kalkulací.",
+        "phone": "+420 734 882 190",
+        "phoneRaw": "+420734882190",
+        "email": "hello@northdock.events",
+        "address": "Kotlářská 24, Brno",
+        "mailSubject": "Poptávka catering a rental",
+        "mapLink": "https://maps.google.com/?q=Kotlarska+24+Brno",
+        "mapEmbedUrl": "https://www.google.com/maps?q=Kotlarska%2024%20Brno&output=embed",
+        "form": {
+            "subject": "Poptávka: North Dock Events"
         }
-      }
-    ]
-  },
-  "ui": {
-    "contactBackground": "/images/ui/contact-bg.jpg"
-  }
+    },
+    "social": [
+        { "label": "Instagram", "url": "https://instagram.com" },
+        { "label": "Facebook", "url": "https://facebook.com" }
+    ],
+    "team": {
+        "items": [
+            {
+                "id": "team-1",
+                "name": "Kostas Akritidis",
+                "role": "Catering & Production Manager | Event Rental Manager",
+                "image": {
+                    "src": "/images/team/kostas.png",
+                    "alt": "Catering & Production Manager | Event Rental Manager"
+                }
+            },
+            {
+                "id": "team-2",
+                "name": "Miroslav Jiřička",
+                "role": "Event Manager",
+                "image": {
+                    "src": "/images/team/miroslav-jiricka.png",
+                    "alt": "Event Manager"
+                }
+            },
+            {
+                "id": "team-3",
+                "name": "Lukás Vondy Vondráček",
+                "role": "Audio Director & Live Performer",
+                "image": {
+                    "src": "/images/team/lukas-vondy-vondracek.jpg",
+                    "alt": "Audio Director & Live Performer"
+                }
+            },
+            {
+                "id": "team-4",
+                "name": "Vítězslav Mach",
+                "role": "Transport Manager",
+                "image": {
+                    "src": "/images/team/vitezslav-mach.png",
+                    "alt": "Transport Manager"
+                }
+            },
+            {
+                "id": "team-5",
+                "name": "Martin Labudík",
+                "role": "Japan event topics | IT Manager",
+                "image": {
+                    "src": "/images/team/martin-labudik.png",
+                    "alt": "Japan event topics | IT Manager"
+                }
+            }
+        ]
+    },
+    "ui": {
+        "contactBackground": "/images/ui/contact-bg.jpg"
+    }
 }
