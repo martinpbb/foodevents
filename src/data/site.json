@@ -8,7 +8,7 @@
       { "id": "nav-about", "label": "Kdo jsme", "sectionId": "about" },
       { "id": "nav-events", "label": "Akce", "sectionId": "events" },
       { "id": "nav-photos", "label": "Fotky", "sectionId": "photos" },
-      { "id": "nav-services", "label": "Služby", "sectionId": "services" },
+      { "id": "nav-services", "label": "Půjčovna", "sectionId": "services" },
       {
         "id": "nav-partners",
         "label": "Spolupracujeme",
